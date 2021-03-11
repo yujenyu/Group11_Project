@@ -51,4 +51,6 @@ While Dada and Surrealism took absurdity to an extreme degree, artists have alwa
 3. [The Persistence of Memory by Dali](https://en.wikipedia.org/wiki/The_Persistence_of_Memory)
 
 ### Abstract Expressionism
+Abstract expressionism is a post–World War II art movement in American painting, developed in New York in the 1940s. Technically, an important predecessor is surrealism, with its emphasis on spontaneous, automatic, or subconscious creation. Additionally, it has an image of being rebellious, anarchic, highly idiosyncratic and, some feel, nihilistic.
+
 ### Pop Art
