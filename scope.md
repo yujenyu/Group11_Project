@@ -1,8 +1,29 @@
 ## Art History after Renaissance
 Please add the content for each movement of arts. For each movement, you can give a short introduction uder the title and provide several links for others to check masterpieces that could represent the movement.
 ### Renaissance
+Renaissance art took as its foundation the art of Classical antiquity, perceived as the noblest of ancient traditions, but transformed that tradition by absorbing recent developments in the art of Northern Europe and by applying contemporary scientific knowledge. ([Reference](https://en.wikipedia.org/wiki/Renaissance_art))
+
+1. [**Leonardo da Vinci (1452-1519)**](https://en.wikipedia.org/wiki/Leonardo_da_Vinci)
+  - [The Last Supper (1490s)](https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo))
+  - [Mona Lisa (1503–1506)](https://en.wikipedia.org/wiki/Mona_Lisa)
+2. [**Raphael (1483-1520)**](https://en.wikipedia.org/wiki/Raphael)
+  - [The School of Athens (1509-1511)](https://en.wikipedia.org/wiki/The_School_of_Athens)
+
 ### Baroque
+The Baroque style used contrast, movement, exuberant detail, deep colour, grandeur and surprise to achieve a sense of awe. The style began at the start of the 17th century in Rom. By the 1730s, it had evolved into an even more flamboyant style, called rocaille or Rococo, which appeared in France and Central Europe until the mid to late 18th century. ([Reference](https://en.wikipedia.org/wiki/Baroque))
+
+1. [**Rembrandt van Rijn (1606-1663)**](https://en.wikipedia.org/wiki/Rembrandt)
+  - [The Night Watch (1642)](https://en.wikipedia.org/wiki/The_Night_Watch)
+2. [**Caravaggio (1571-1610)**](https://en.wikipedia.org/wiki/Caravaggio)
+  - [The Entombment of Christ (1603-1604)](https://en.wikipedia.org/wiki/The_Entombment_of_Christ_(Caravaggio))
+
 ### Romanticism
+Romanticism was an artistic, literary, musical, and intellectual movement that originated in Europe towards the end of the 18th century, it was characterized by its emphasis on emotion and individualism as well as glorification of all the past and nature, preferring the medieval rather than the classical.
+The movement emphasized intense emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as apprehension, horror and terror, and awe—especially that experienced in confronting the new aesthetic categories of the sublimity and beauty of nature. ([Reference](https://en.wikipedia.org/wiki/Romanticism))
+
+1. [**Caspar David Friedrich (1774-1840)**](https://en.wikipedia.org/wiki/Caspar_David_Friedrich)
+  - [Wanderer above the Sea of Fog (1818)](https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog)
+
 ### Impressionism
 ### Post-Impressionism
 Post-Impressionism is an artistic practice appeared in 1880s which is affected by and intended to overcome a movement of Impressionism art. Though Post-Impressionism art can include many different style of art, their works have in common that they are not intend to express just visual impressions like impressionism works, but attempt to incorporate the artist's emotions or world view into the work.
