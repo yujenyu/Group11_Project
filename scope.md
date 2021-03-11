@@ -54,5 +54,9 @@ While Dada and Surrealism took absurdity to an extreme degree, artists have alwa
 Abstract expressionism is a post–World War II art movement in American painting, developed in New York in the 1940s. With surrealisma as its important predecessor, it lays emphasis on spontaneous, automatic, or subconscious creation. Additionally, it has an image of being rebellious, anarchic, highly idiosyncratic and, some feel, nihilistic.
 
 1. [**Barnett Newman (1905–1970)**](https://en.wikipedia.org/wiki/Barnett_Newman)
+  - [The Station of the Cross - Third Station (1960)](https://www.wikiart.org/en/barnett-newman/third-station-1960)
+
+2. [**Richard Pousette-Dart (1916–1992)**](https://en.wikipedia.org/wiki/Richard_Pousette-Dart)
+  - [Symphony No. 1, The Transcendental (1942)](https://www.wikiart.org/en/richard-pousette-dart/symphony-no-1-the-transcendental-1942)
 
 ### Pop Art
