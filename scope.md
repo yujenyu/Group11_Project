@@ -34,6 +34,11 @@ Given the movement of Fauvism and Post-Impressionism (especially works of Cézan
 
 
 ### Futurism
+The most revolutionary of all modern art movements, Cubism was the creation of the artists Pablo Picasso and Georges Braque. Soon, more painters began to work in the style, and Cubism provided inspiration for related movements elsewhere – Futurism in Italy, Vorticism in Britain, Constructivism in Russia, and Precisionism in America. Futurism is officially launched when the Futurist Manifesto is published by Filippo Tommaso Marinetti in Paris in February 1909. The Futurists celebrated the modern world, especially its machines and technology.
+
+1. [The Knifegrinder by Kazimir Malevich](https://en.wikipedia.org/wiki/The_Knifegrinder)
+2. [Dynamism of a Soccer Player by Umberto Boccioni](https://en.wikipedia.org/wiki/Dynamism_of_a_Soccer_Player_(Boccioni))
+
 ### Dadaism and Surrealism
 Dada, a movement without governing principles, appeared around 1915 as a revolt against the civilization that had engulfed the world in war. The Dadaists sought to embody the absurd in their work on the basis that absurd art reﬂects an absurd society. Dada was short-lived though, and during the 1920s, its ideas were absorbed into Surrealism.
 
