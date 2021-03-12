@@ -25,6 +25,18 @@ The movement emphasized intense emotion as an authentic source of aesthetic expe
   - [Wanderer above the Sea of Fog (1818)](https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog)
 
 ### Impressionism
+Impressionism is a 19th-century art movement characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time), ordinary subject matter, inclusion of movement as a crucial element of human perception and experience, and unusual visual angles. Impressionism originated with a group of Paris-based artists whose independent exhibitions brought them to prominence during the 1870s and 1880s. ([Reference](https://en.wikipedia.org/wiki/Impressionism))
+
+1. [**Claude Monet (1840-1926)**](https://en.wikipedia.org/wiki/Claude_Monet)
+  - [Impression, Sunrise (1872)](https://en.wikipedia.org/wiki/Impression,_Sunrise)
+  - [San Giorgio Maggiore at Dusk (1908)](https://en.wikipedia.org/wiki/San_Giorgio_Maggiore_at_Dusk)
+2. [**Édouard Manet (1832-1883)**](https://en.wikipedia.org/wiki/Édouard_Manet)
+  - [The Luncheon on the Grass (1863)](https://en.wikipedia.org/wiki/Le_Déjeuner_sur_l%27herbe)
+  - [Olympia (1863)](https://en.wikipedia.org/wiki/Olympia_(Manet))
+3. [**Pierre-Auguste Renoir (1841-1919)**](https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir)
+  - [Dance at Le Moulin de la Galette (1876)](https://en.wikipedia.org/wiki/Bal_du_moulin_de_la_Galette)
+  - [Girls at the Piano (1892)](https://en.wikipedia.org/wiki/Girls_at_the_Piano)
+
 ### Post-Impressionism
 Post-Impressionism is an artistic practice appeared in 1880s which is affected by and intended to overcome a movement of Impressionism art. Though Post-Impressionism art can include many different style of art, their works have in common that they are not intend to express just visual impressions like impressionism works, but attempt to incorporate the artist's emotions or world view into the work.
 
@@ -38,6 +50,15 @@ Post-Impressionism is an artistic practice appeared in 1880s which is affected b
   - [Where Do We Come From? What Are We? Where Are We Going? (1898)](https://en.wikipedia.org/wiki/Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F)
 
 ### Fauvism
+Fauvism is the style of les Fauves (French for "the wild beasts"), a group of early 20th-century modern artists whose works emphasized painterly qualities and strong color over the representational or realistic values retained by Impressionism. While Fauvism as a style began around 1904 and continued beyond 1910, the movement as such lasted only a few years, 1905–1908, and had three exhibitions. The leaders of the movement were André Derain and Henri Matisse. ([Reference](https://en.wikipedia.org/wiki/Fauvism))
+
+1. [**Henri Matisse (1869-1954)**](https://en.wikipedia.org/wiki/Henri_Matisse)
+  - [La danse (1909)](https://en.wikipedia.org/wiki/Dance_(Matisse))
+  - [Portrait of Madame Matisse (1905)](https://en.wikipedia.org/wiki/Green_Stripe)
+2. [**André Derain (1880-1954)**](https://en.wikipedia.org/wiki/André_Derain)
+  - [Charing Cross Bridge (1906)](https://www.nga.gov/audio-video/audio/collection-highlights-east-building-english/charing-cross-bridge-london-derain.html)
+  - [LA JETÉE À L’ESTAQUE (1906)](https://www.sothebys.com/en/auctions/ecatalogue/2015/impressionist-modern-art-evening-sale-l15002/lot.25.html)
+
 ### Expressionism
 Expressionism is an artistic movement which became popular in early 20 century's Germany and Austria. It does not refer to a particular style, but rather to a group of painters who avoided objective expression and focused instead on "expressing" their own invisible inner feelings, subjective awareness or perceived worldview.　Its orientation towards independence from objective shapes colours influenced later Surrealism and contemporary art.
 
@@ -81,3 +102,14 @@ Abstract expressionism is a post–World War II art movement in American paintin
   - [Symphony No. 1, The Transcendental (1942)](https://www.wikiart.org/en/richard-pousette-dart/symphony-no-1-the-transcendental-1942)
 
 ### Pop Art
+Pop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late-1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular (as opposed to elitist) culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material ([Reference](https://en.wikipedia.org/wiki/Pop_art))
+
+1. [**Andy Warhol (1928-1987)**](https://en.wikipedia.org/wiki/Andy_Warhol)
+  - [Campbell's Soup Cans (1962)](https://www.moma.org/learn/moma_learning/andy-warhol-campbells-soup-cans-1962/)
+  - [Marilyn Diptych (1962)](https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093)
+2. [**Keith Haring (1958-1990)**](https://en.wikipedia.org/wiki/Keith_Haring)
+  - [Pop Shop I (1987)](https://www.guyhepner.com/artist/keith-haring-prints/pop-shop-i-by-keith-haring/)
+  - [Retrospect (1989)](https://www.phillips.com/detail/keith-haring/NY030116/56)
+3. [**Roy Lichtenstein (1923-1997)**](https://en.wikipedia.org/wiki/Roy_Lichtenstein)
+  - [Masterpiece (1962)](https://en.wikipedia.org/wiki/Masterpiece_(Lichtenstein))
+  - [Drowning Girl (1963)](https://www.moma.org/learn/moma_learning/lichtenstein-drowning-girl-1963/)
