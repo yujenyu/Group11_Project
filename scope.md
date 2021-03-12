@@ -56,7 +56,7 @@ Fauvism is the style of les Fauves (French for "the wild beasts"), a group of ea
   - [La danse (1909)](https://en.wikipedia.org/wiki/Dance_(Matisse))
   - [Portrait of Madame Matisse (1905)](https://en.wikipedia.org/wiki/Green_Stripe)
 2. [**André Derain (1880-1954)**](https://en.wikipedia.org/wiki/André_Derain)
-  - [Charing Cross Bridge (1906)](https://www.nga.gov/audio-video/audio/collection-highlights-east-building-english/charing-cross-bridge-london-derain.html)
+  - [Charing Cross Bridge (1906)](https://www.musee-orsay.fr/en/collections/works-in-focus/search/commentaire/commentaire_id/charing-cross-bridge-7188.html?no_cache=1&cHash=f0a0c9e686)
   - [LA JETÉE À L’ESTAQUE (1906)](https://www.sothebys.com/en/auctions/ecatalogue/2015/impressionist-modern-art-evening-sale-l15002/lot.25.html)
 
 ### Expressionism
