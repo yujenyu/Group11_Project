@@ -75,7 +75,7 @@ Given the movement of Fauvism and Post-Impressionism (especially works of Cézan
   - [Guernica (1937)](https://en.wikipedia.org/wiki/Guernica_(Picasso))
 
 
-### Futurism
+~~### Futurism~~
 The most revolutionary of all modern art movements, Cubism was the creation of the artists Pablo Picasso and Georges Braque. Soon, more painters began to work in the style, and Cubism provided inspiration for related movements elsewhere – Futurism in Italy, Vorticism in Britain, Constructivism in Russia, and Precisionism in America. Futurism is officially launched when the Futurist Manifesto is published by Filippo Tommaso Marinetti in Paris in February 1909. The Futurists celebrated the modern world, especially its machines and technology.
 
 1. [The Knifegrinder by Kazimir Malevich](https://en.wikipedia.org/wiki/The_Knifegrinder)
@@ -101,7 +101,7 @@ Abstract expressionism is a post–World War II art movement in American paintin
 2. [**Richard Pousette-Dart (1916–1992)**](https://en.wikipedia.org/wiki/Richard_Pousette-Dart)
   - [Symphony No. 1, The Transcendental (1942)](https://www.wikiart.org/en/richard-pousette-dart/symphony-no-1-the-transcendental-1942)
 
-### Pop Art
+~~### Pop Art~~
 Pop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late-1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular (as opposed to elitist) culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony. It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material ([Reference](https://en.wikipedia.org/wiki/Pop_art))
 
 1. [**Andy Warhol (1928-1987)**](https://en.wikipedia.org/wiki/Andy_Warhol)
