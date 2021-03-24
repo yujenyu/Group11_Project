@@ -12,14 +12,14 @@
 * Henri Matisse
 * [Still Life with Aubergines](https://www.henrimatisse.org/still-life-with-aubergines.jsp)
 
-![](./still-life-with-aubergines.jpg)
+![](./still-life-with-aubergines.jpg =300x300)
 
 1. A mirror at the left, partly obscured at the bottom by a drawing portfolio, reflects these and other objects on the table in an inconsistent fashion. It is as if Matisse is stating that the artist's mirror image of nature in a painting may take certain licenses with reality in the interests of the picture itself.
 2. Three aubergines are balanced precariously on a table whose red cloth carries an undulating white pattern that reinforces their tuberous shape.
 
 ### Expressionism
 * Edvard Munch
-* [The Scream](https://en.wikipedia.org/wiki/The_Scream)
+* [The Scream](https://en.wikipedia.org/wiki/The_Scream =300x300)
 
 ![](./The_Scream.jpg)
 
