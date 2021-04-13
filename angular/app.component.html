@@ -1,0 +1,185 @@
+<div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
+  <div class="section frontPage">
+    <h1>ART HISTORY 101</h1>
+    <button type="button" name="button">
+      About
+      <span class="about">This app is...</span>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-down-square-fill" viewBox="0 0 16 16" (click)="fullpage_api.moveSectionDown()">
+      <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+  </div>
+
+  <!page2>
+  <!DOCTYPE html>
+	<div class="section">
+
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #666;
+      padding:30px;
+      text-align: center;
+      color: white;
+    }
+
+    /* Container for flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    /* Style the navigation menu */
+    nav {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    /* Style the content */
+    article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+
+    </style>
+    </head>
+
+    <body>
+
+    <!-- Top header -->
+    <header>
+      <h5 style="font-size:4vw">Choose a story about the masterpiece</h5>
+    </header>
+
+    <!-- Sidebar/menu -->
+    <section>
+      <nav>
+        <ul>
+          <li><button onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">a. Are all his own paintings on the walls?</button></li>
+          <li><button onclick="document.getElementById('id02').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">b. Why are there pairs of furniture? <br>Such as chairs and pillows.</button></li>
+          <li><button onclick="document.getElementById('id03').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">c. Does the wall seem crooked?</button></li>
+          <li><button onclick="document.getElementById('id04').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">d. The room looks neat and seems a bit empty?</button></li>
+        </ul>
+       </nav>
+
+
+
+    <!-- a -->
+    <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h5 class="w3-wide">a. Are all his own paintings on the walls?</h5>
+        <p>Yes, the paintings......<br>.....................</p>
+        <div class="w3-row">
+          <div class="w3">
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-black">OK</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- b -->
+    <div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h5 class="w3-wide">b. Why are there pairs of furniture? Such as chairs and pillows.</h5>
+        <p>This is because......<br>............</p>
+        <div class="w3-row">
+          <div class="w3">
+            <button onclick="document.getElementById('id02').style.display='none'" type="button" class="w3-button w3-block w3-black">OK</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- c -->
+    <div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h5 class="w3-wide">c. Does the wall seem crooked?</h5>
+        <p>The wall is indeed crooked......<br>...........</p>
+        <div class="w3-row">
+          <div class="w3">
+            <button onclick="document.getElementById('id03').style.display='none'" type="button" class="w3-button w3-block w3-black">OK</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- d -->
+    <div id="id04" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+      <div class="w3-container w3-white w3-center">
+        <h5 class="w3-wide">d. The room looks neat and seems a bit empty?</h5>
+        <p>This is because......<br>............</p>
+        <div class="w3-row">
+          <div class="w3">
+            <button onclick="document.getElementById('id04').style.display='none'" type="button" class="w3-button w3-block w3-black">OK</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- !PAGE CONTENT! -->
+    <article>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Vincent_van_Gogh_-_Van_Gogh%27s_Bedroom_in_Arles_-_Google_Art_Project.jpg" alt="Vincent van Gogh - Van Gogh's Bedroom in Arles - Google Art Project.jpg" style="width:100%;">
+      </article>
+    </section>
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:123px"></div>
+
+    </body>
+
+
+    </html>
+
+
+
+
+</div>
+
+	<div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div>
+</div>
