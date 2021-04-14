@@ -1,0 +1,68 @@
+
+.frontPage {
+  background-image: url("https://img07.shop-pro.jp/PA01440/488/product/148297523.jpg?cmsp_timestamp=20200124133124");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  position: relative;
+}
+
+.frontPage h1 {
+  position: absolute;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  top: 33%;
+  left: 5%;
+}
+
+.frontPage button {
+  position: absolute;
+  background-color: #dcdcdc;
+  font-family: sans-serif;
+  font-size: 30px;
+  border-color: #000;
+  top: 60%;
+  left: 5%;
+  padding: 1px 12px;
+}
+
+.bi-arrow-down-square-fill {
+  position: absolute;
+  color: #9a9a9a;
+  bottom: 5%;
+  left: 50%;
+}
+
+.frontPage span.about {
+    display: none;
+}
+.frontPage button:hover span.about {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 24px;
+    display: block;
+    margin: 0.5em;
+    position: absolute;
+    width: 12em;
+}
+
+.bi-list {
+  position: absolute;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  color: #000;
+  padding: 5px;
+  top: 5%;
+  right: 5%;
+}
+
+
+.w3-modal {
+  position: absolute;
+  top: 100%;
+}

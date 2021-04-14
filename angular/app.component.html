@@ -28,8 +28,8 @@
       box-sizing: border-box;
     }
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
+    body, h1, h5,p {
+      font-family: "Raleway", sans-serif;
     }
 
     /* Style the header */
@@ -84,18 +84,20 @@
     <body>
 
     <!-- Top header -->
-    <header>
-      <h5 style="font-size:4vw">Choose a story about the masterpiece</h5>
+    <header class="w3-wide">
+      <h1 style="font-size:4vw">Choose a story about the masterpiece</h1>
     </header>
 
     <!-- Sidebar/menu -->
     <section>
       <nav>
         <ul>
+          <li><p style="font-size:1.2vw">Vincent van Gogh<br>Bedroom in Arles<br>1889</p></li>
           <li><button onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">a. Are all his own paintings on the walls?</button></li>
           <li><button onclick="document.getElementById('id02').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">b. Why are there pairs of furniture? <br>Such as chairs and pillows.</button></li>
           <li><button onclick="document.getElementById('id03').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">c. Does the wall seem crooked?</button></li>
           <li><button onclick="document.getElementById('id04').style.display='block'" class="w3-bar-item w3-button" style="font-size:1.2vw">d. The room looks neat and seems a bit empty?</button></li>
+
         </ul>
        </nav>
 
