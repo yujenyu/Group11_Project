@@ -82,4 +82,60 @@ D. Why did Goya choose to paint fictional creature?
 The giant symbolizes war or its danger that makes people afraid. On the other hand, we can also think of giants as guarding humans or the horror that humans make people frantic. Therefore, this painting is also called "Panic". Goya uses this giant mystery-like creature to express indescribable thoughts and emotions.
 
 
+## Impressionism
+ ![image](https://user-images.githubusercontent.com/78802441/115156311-3a726680-a0b6-11eb-9023-9532eb23d3a3.png)
+
+The Luncheon
+
+Jean Monet
+
+1873
+
+A. Why the white areas in the painting seem to be particularly eye-catching?
+
+Monet used a white tablecloth to concentrate the light, so although the sky was not drawn, the picture was full of sunlight. The female clothing in the background, although not so strong, has the same effect.
+However, it is surprising that these parts that look white were painted in other colours. They are actually blue, pink and light purple. All the reflected light merges here, making it look like white.
+
+B. Is this painting really painted in the yard?
+
+Monet believes that painting should be done on the spot, and if he wants to paint the scenery of the yard, he paints in the yard. Before this, no matter what subject, painters usually painted in the workshop. Although painting in the workshop is very accessible, people can paint day and night, but the light in the workshop is very different from that of the outdoors. In order to paint the original appearance, Monet likes to paint in the place where things were originally located.
+
+C. Why did Monet draw things so vaguely?
+
+Because when we look at things, we only have a general impression. Like seeing a tree, we do not look at each leaf carefully but only look at the approximate shape and colour. Monet just wanted to show this effect. He did not draw a clear outline but faithfully draws what he "sees".
+
+D. Why is Monet called Impressionist?
+
+In fact, "impressionism" was just a joke at first. In 1874, Monet exhibited "Impression · Sunrise". Only fuzzy shapes could be seen in the painting, and the term "impressionism" was born from this. At that time, many people thought that Monet's work was terrible, and they felt that this must have been a failed work painted in a hurry - at that time, the word "impression" had a draft meaning. They didn't know that Monet changed the history of painting forever. Future painters pay attention to these subtle, delicate and impermanent "impressions".
+
+
+## Post-Impressionism
+ ![image](https://user-images.githubusercontent.com/78802441/115156363-70174f80-a0b6-11eb-8411-138fe9c5caa6.png)
+
+Bedroom in Arles
+
+Vincent van Gogh
+
+1888
+
+A. Whose room is it?
+
+It is Van Gogh's room. He lived in a small town in Provence in the south of France when he painted this painting. Van Gogh drew this neatly packed room, which shows his determination to tidy up everything around him. Before painting this picture, he stayed in a hotel, having no fixed residence.
+
+B. Are all his paintings on the wall?
+
+Correct. Van Gogh was always painting, and his favourite thing to do is painting. Because he couldn't live in a room without painting, he hung his images on the wall as decoration. There are two portraits of his friends on the right wall, the next two are sketches, and the inside walls are decorated with landscape paintings. These show the various styles of Van Gogh.
+
+
+C. Is the wall a bit crooked?
+
+Yes, the walls are indeed not straight. This is because the bedroom is in the corner of the house and protrudes slightly. Another work, "The Yellow House", was painted by Van Gogh from the outside of the house, which can tell how much it protrudes.
+
+D. Why did not he use many colours?
+
+Van Gogh wanted to paint as vibrant and impressive paintings as possible, so he used a lot of contrasting colours. Such as orange, blue, green and red, and it felt like all the energy was concentrated in the painting.
+He ignored the shadows that would reduce the strength of the picture, and the colour of the frame also plays a role. In order to balance with the vitality in the painting, Van Gogh often used pure white frames.
+
+
+
 
