@@ -136,6 +136,98 @@ D. Why did not he use many colours?
 Van Gogh wanted to paint as vibrant and impressive paintings as possible, so he used a lot of contrasting colours. Such as orange, blue, green and red, and it felt like all the energy was concentrated in the painting.
 He ignored the shadows that would reduce the strength of the picture, and the colour of the frame also plays a role. In order to balance with the vitality in the painting, Van Gogh often used pure white frames.
 
+## Fauvism
 
+La danse
 
+Henri Matisse
 
+1909
+
+A.
+
+B.
+
+C.
+
+D.
+
+## Expressionism
+
+The Scream
+
+Edvard Munch
+
+1893
+
+A.
+
+B.
+
+C.
+
+D.
+
+## Cubism
+
+Les Demoiselles d'Avignon
+
+Pablo Picasso
+
+1907
+
+A.
+
+B.
+
+C.
+
+D.
+
+## Futurism
+
+The Knifegrinder
+
+Kazimir Malevich
+
+1912
+
+A.
+
+B.
+
+C.
+
+D.
+
+## Dadaism and Surrealism
+
+The Persistence of Memory
+
+Salvador Dalí
+
+1931
+
+A.
+
+B.
+
+C.
+
+D.
+
+## Abstract Expressionism
+
+The Station of the Cross - Third Station
+
+Barnett Newman
+
+1960
+
+A.
+
+B.
+
+C.
+
+D.
