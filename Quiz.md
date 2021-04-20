@@ -184,22 +184,6 @@ C.
 
 D.
 
-## Futurism
-
-The Knifegrinder
-
-Kazimir Malevich
-
-1912
-
-A.
-
-B.
-
-C.
-
-D.
-
 ## Dadaism and Surrealism
 
 The Persistence of Memory
