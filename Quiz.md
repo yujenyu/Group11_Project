@@ -146,13 +146,25 @@ Henri Matisse
 
 1909
 
-A.
+A. Why people in this painting naked without genitalia?
 
-B.
+When Shchukin commissioned Matisse to paint this work, he asked for the dancers to be dressed. Matisse’s choice to depict them in the nude proved to be scandalous when he exhibited it at the Autumn Salon in Paris. Some even went as far as accusing him of having a mental illness.
+This situation strained their artist/patron relationship. Eventually the two reached an agreement saying that the dancers could be depicted naked but that no genitalia would be explicitly illustrated.
 
-C.
+B. Do you agree that this artwork is rhythmic?
 
-D.
+The massive painting measures 230 by 391 centimetres. However, even in these dimensions, the framework is too narrow for the size of the figures. In order for them to fully fit into the frame, Matisse had to put an arch in some of their backs.
+Thus, the viewer’s gaze is drawn in by their circular characteristics: the figures on top are folded, in the act of arching their backs, while those on the bottom are extended. Their curves dominate the composition and by joining hands, their circular shape gives the painting a feeling of movement and motion.
+
+C. Do Matisse prefer to use of symbolism in art?
+
+Yes, Matisse created his painting during a period of artistic maturity. At the time of its execution, he was reaching the height of his use of symbolism in art. His compositions became more refined as the colours become more balanced.
+The Dance was commissioned by the famous Russian collector, Sergei Shchukin. He asked for Matisse to create two paintings to hang in his home in Moscow. It was decided that the three underlying themes would be action, passion and contemplation.
+
+D. How do you describe of five figures in the painting?
+
+The individuals are entirely lost in their dance, oblivious to any daily obligations and work. Matisse does not focus on the dancers’ individual appearance, but rather on the movement and rhythm they create together. The dance is the ultimate symbol of the reconciliation of individuals.
+The five figures are holding hands in a circle, but on the left, we can notice that the two individuals’ hands are parted; they only slightly brush instead of holding. However, Matisse carefully placed the rupture where it overlaps the other figure’s leg as not to break the colours and circle’s harmony. The rupture’s point being closest to the viewer’s position, it can be interpreted as an invitation to join in the dance. The circle comes to find those that “are outside,” and thus unify individuals.
 
 ## Expressionism
 ![The Scream](https://user-images.githubusercontent.com/74121985/115402080-fd57c280-a1e2-11eb-8238-a6f438c343aa.jpg)
