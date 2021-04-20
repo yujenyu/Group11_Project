@@ -175,13 +175,24 @@ Edvard Munch
 
 1893
 
-A.
+A. What is this painting represent for?
 
-B.
+According to Munch himself, The Scream was a picture he painted to represent his soul. Rather than adhering to the art style of the time — that is, painting pictures meticulously to realistically represent the subjects in them — he chose to use an unrealistic style to paint his emotions, rather than focus on realism and perfectionism in his art. Munch explained that he painted a moment of existential crisis. He was walking down a road similar to the one in the painting, while the sun was setting, creating a beautiful, vibrant background. His friends were walking with him, but, looking out at the sky in front of them, he stopped, while they continued walking. He then described having what we would now consider to be a panic attack; he suddenly became tired, anxious, claustrophobic, and the weight of nature and of the world hit him all at once.
 
-C.
+B. Do you think this artwork is painted by who has mental problem?
 
-D.
+After painting The Scream, Munch checked himself into a mental health hospital because he claimed he was hearing voices. The Scream was not the only byproduct of horrible anxiety and nonexistent mental health. Although it is arguably the most famous of Munch’s works, his other paintings focused around mental health as well. Some paintings were portraits of his dead sister. His piece titled Anxiety, painted after The Scream, looks eerily similar to the famous painting.
+
+C. Why Munch use exaggerated colors?
+
+Munch used color in this painting mostly to convey emotion and drama. He really pushed the colors in the direction of his idea, rather than to paint realistically.
+There is a powerful contrast between exaggerated reds and oranges used for the sunset in the background, and the dull blues, greens, purples and grays used for everything else.
+The use of color contrast in this painting works two ways: to show the intensity of the "blood red" sunset in the background and the drama of the ghoulish figure on the bridge. Both of these extremes need each other to work effectively in the painting; they complement each other like red complements green. The ghoulish figure was painted with sickly colors: dull yellows, blues, and purples. Dark and light accents painted over the top hint at the "screaming" expression of the figure. No attention was given by Munch to paint this figure with any sense of realism. It is likely this was a figure of Munch's own tormented mind.
+
+D.Why this painting shows in a distorted forms?
+
+Munch made use of swirling lines to create a sense of movement, much like Vincent van Gogh did in The Starry Night. Swirling lines were used for the surrounding nature and also the distorted figure. The bridge, the two other figures on the left-hand side and the distant boats in the water are painted with rigid lines and shapes. This may represent a contrast between nature and the civilization being forced upon it.
+The two figures on the left-hand side are simple and abstract, but not really distorted like the main figure. This really alienates the main figure, which was painted with elongated hands, a curving body and primitive facial features.
 
 ## Cubism
 ![Les Demoiselles d'Avignon](https://user-images.githubusercontent.com/74121985/115402175-16f90a00-a1e3-11eb-8f4f-1ff20f883d87.jpg)
