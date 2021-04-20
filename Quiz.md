@@ -253,18 +253,26 @@ There’s no reason to believe, for sure, that the fourth watch was added later�
 
 
 ## Abstract Expressionism
-![The Station of the Cross - Third Station](https://user-images.githubusercontent.com/74121985/115404507-4d378900-a1e5-11eb-9438-abb785ab31c5.jpeg)
+![UNTITLED (NEW YORK CITY)](https://user-images.githubusercontent.com/74121985/115473118-0a040700-a233-11eb-8d8f-dcdb3d0e9ea9.jpg)
 
-The Station of the Cross - Third Station
+UNTITLED (NEW YORK CITY)
 
-Barnett Newman
+Cy Twombly
 
-1960
+1968
 
-1.
+1. Why this painting such inexplicable?
 
-2.
+To articulate the inexplicable: this is what Cy Twombly set out to do, in paintings that consecrate the sublime visual poetry of that which cannot be written. With the obsessively systematic repetition of his Blackboard paintings, Twombly lyrically expresses both a ceaseless effort and persistent inability to depict an emotion that is quite simply beyond representation. Created in an outburst of significant invention, Twombly’s epic Untitled (New York City) from 1968 sits at the very head of the artist’s celebrated Blackboards.  Unrivaled for its scale and ambition, the artist painted an extremely limited number of other seminal Blackboard canvases that share the present work’s fully formed loops and vast format.
 
-3.
+2. How Cy Twombly express the art by abstract way?
 
-4.
+Twombly’s cylindrical forms reverberate within their own echo chamber, refracting into seeming infinity whilst elegantly contained within the parameters of the canvas. Twombly here investigated the definition and physical nature of a simple geometrical element in space as it erupts within the picture plane with cataclysmic graphic narrative, pulsing with an ineffable rhythm. The six magnificent horizontal bands of loops increase in volume and expressive abandon as the artist progressed down the canvas—Twombly’s lassoed lines progressively lose regularity and control, resulting in thrillingly increased drips, smears, and spatters toward the bottom of the picture.
+
+3. Is this painting in futuristic way as well?
+
+Yes, while the Futurist principle of movement in space was centered on the rational, quasi-scientific understanding of transformation and duration, Twombly appears to have reacted to the dispersion of forms in which painstaking precision comes into contact with an energetic abandon. With all the rough, fractured rawness of street graffiti, Twombly presented an entirely novel visual language that innovatively explored both the most elementary and the most sophisticated concerns posed by the genesis of creativity. 
+
+4. Why Cy Twombly's abstract painting worth incredible price?
+
+In every drop of color, line, and symbol, the audience can freely imagine the deep meaning behind it. "Each line is the true experience of its own inherent history. They do not explain or describe anything-this is just the realization of a sense of self-consciousness." Twombly’s "Blackboard Series" have a lot to do with the rise of action painting in New York, including the large number of sketches he painted in Europe, which made him more and more aware of the difference between line art The characteristics of oil painting techniques. Sketching is closer to the automated process pursued by action painting, a portrayal of inner thoughts. This painting language has always influenced Twombly's artistic career. In his giant paintings, you can always see slender handwriting, sketch-like impressions, and automated processes.
