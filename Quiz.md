@@ -138,6 +138,8 @@ He ignored the shadows that would reduce the strength of the picture, and the co
 
 ## Fauvism
 
+![La danse](https://user-images.githubusercontent.com/74121985/115401836-ba95ea80-a1e2-11eb-84a5-d9b28dfdec94.jpg)
+
 La danse
 
 Henri Matisse
@@ -153,6 +155,7 @@ C.
 D.
 
 ## Expressionism
+![The Scream](https://user-images.githubusercontent.com/74121985/115402080-fd57c280-a1e2-11eb-8238-a6f438c343aa.jpg)
 
 The Scream
 
@@ -169,6 +172,7 @@ C.
 D.
 
 ## Cubism
+![Les Demoiselles d'Avignon](https://user-images.githubusercontent.com/74121985/115402175-16f90a00-a1e3-11eb-8f4f-1ff20f883d87.jpg)
 
 Les Demoiselles d'Avignon
 
@@ -185,6 +189,7 @@ C.
 D.
 
 ## Dadaism and Surrealism
+![The Persistence of Memory](https://user-images.githubusercontent.com/74121985/115402277-2e37f780-a1e3-11eb-9e74-bd59ebb95d6d.jpg)
 
 The Persistence of Memory
 
@@ -201,6 +206,7 @@ C.
 D.
 
 ## Abstract Expressionism
+![The Station of the Cross - Third Station](https://user-images.githubusercontent.com/74121985/115404507-4d378900-a1e5-11eb-9438-abb785ab31c5.jpeg)
 
 The Station of the Cross - Third Station
 
