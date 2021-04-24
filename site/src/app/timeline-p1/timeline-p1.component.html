@@ -1,13 +1,13 @@
 <section id="timeline-p1">
 
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://www.gannett-cdn.com/-mm-/33270e34a59fb95cfaa9882f98ee37161bbe36d5/c=0-31-1473-1995/local/-/media/2016/05/17/Cincinnati/Cincinnati/635990776725216426-monalisa.jpg?width=660&height=880&fit=crop&format=pjpg&auto=webp)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Renaissance</p>
       </div>
-  
+
       <div class="tl-content">
         <h1>1400 - 1525</h1>
         <p>Known for a revival of classic Greek and Roman aesthetics, biblical and mythological subject matter, and realistic paintings and sculptures.</p>
@@ -18,9 +18,7 @@
           <app-info>
             <div class="product__photo">
               <div class="photo-container">
-                <a href="https://imgbb.com/">
-                  <img src="https://i.ibb.co/n8vBc7p/fipmYqX.jpg" alt="fipmYqX" border="0">
-                </a>
+                <img src="https://i.ibb.co/n8vBc7p/fipmYqX.jpg" alt="fipmYqX" border="0">
               </div>
             </div>
             <div class="product__info">
@@ -44,48 +42,135 @@
         </ng-template>
       </div>
     </div>
-  
+
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ab/Caravaggio_-_La_Deposizione_di_Cristo.jpg)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Baroque</p>
       </div>
-  
+
       <div class="tl-content">
         <h1 class="f3 text--accent ttu">1600 - 1700 </h1>
         <p>Known for similar themes as the Renaissance but depicted with more movement, color, and drama.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://ibb.co/tbZj0MY" alt="fipmYqX" border="0">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Renaissance</h1>
+                <span>1400 - 1525</span>
+              </div>
+              <div class="description">
+                <p>The Baroque style used contrast, movement, exuberant detail, deep colour, grandeur and surprise to achieve a sense of awe. The style began at the start of the 17th century in Rom. By the 1730s, it had evolved into an even more flamboyant style, called rocaille or Rococo, which appeared in France and Central Europe until the mid to late 18th century.</p>
+                <h3>Artists & Works</h3>
+                <ul>
+                  <li>Rembrandt van Rijn (1606-1663)</li>
+                  <li>The Night Watch (1642)</li>
+                  <li>Caravaggio (1571-1610)</li>
+                  <li>The Entombment of Christ (1603-1604)</li>
+                </ul>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
       </div>
-  
     </div>
-  
+
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FxscrFu940ykaXFUJw9cdXA%2Flarger.jpg&width=600&quality=80)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Romanticism</p>
       </div>
-  
+
       <div class="tl-content">
         <h1 class="f3 text--accent ttu">1770 - 1850</h1>
         <p>Known for its strong emotion, emphasis of the imagination, and revolt against social norms.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://ibb.co/p0BpbMX" alt="fipmYqX" border="0">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Romanticism</h1>
+                <span>1770 - 1850</span>
+              </div>
+              <div class="description">
+                <p>Romanticism was an artistic, literary, musical, and intellectual movement that originated in Europe towards the end of the 18th century, it was characterized by its emphasis on emotion and individualism as well as glorification of all the past and nature, preferring the medieval rather than the classical. The movement emphasized intense emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as apprehension, horror and terror, and awe—especially that experienced in confronting the new aesthetic categories of the sublimity and beauty of nature.</p>
+                <h3>Artists & Works</h3>
+                <ul>
+                  <li>Caspar David Friedrich (1774-1840)</li>
+                  <li>Wanderer above the Sea of Fog (1818)</li>
+                  <li>Eugène Delacroix (1798-1863)</li>
+                  <li>The Death of Sardanapalus (1827 & 1844)</li>
+                </ul>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
       </div>
-  
     </div>
-  
+
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/400px-Monet_-_Impression%2C_Sunrise.jpg)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Impressionism</p>
       </div>
-  
+
       <div class="tl-content">
         <h1 class="f3 text--accent ttu">1860 - 1880</h1>
         <p>Known for works that capture the effects of light on objects, using pure color and visible brushstrokes.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://ibb.co/gPJyCCV" alt="fipmYqX" border="0">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Romanticism</h1>
+                <span>1770 - 1850</span>
+              </div>
+              <div class="description">
+                <p>Impressionism is a 19th-century art movement characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time), ordinary subject matter, inclusion of movement as a crucial element of human perception and experience, and unusual visual angles. Impressionism originated with a group of Paris-based artists whose independent exhibitions brought them to prominence during the 1870s and 1880s.</p>
+                <h3>Artists & Works</h3>
+                <ul>
+                  <li>Claude Monet (1840-1926)</li>
+                  <li>Impression, Sunrise (1872)</li>
+                  <li>San Giorgio Maggiore at Dusk (1908)</li>
+                  <li>Édouard Manet (1832-1883)</li>
+                  <li>The Luncheon on the Grass (1863)</li>
+                  <li>Olympia (1863)</li>
+                  <li>Pierre-Auguste Renoir (1841-1919)</li>
+                  <li>Dance at Le Moulin de la Galette (1876)</li>
+                  <li>Girls at the Piano (1892)</li>
+                </ul>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
       </div>
     </div>
   </section>
