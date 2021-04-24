@@ -16,10 +16,10 @@ export class AppComponent implements OnInit {
     // this is just an example => for more details on config please visit fullPage.js docs
     this.config = {
       licenseKey: 'YOUR LICENSE KEY HERE',
-      anchors: ['welcome', 'timeline', 'funfacts', 'artdetective'],
+      anchors: ['welcome', 'timeline', 'funfacts', 'artdetective', 'lastpage'],
       menu: '#menu',
       navigation: true,
-      sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+      sectionsColor: ['white', '#4BBFC3', '#7BAABE', 'whitesmoke'],
 
       // events callback
       afterLoad: (origin, destination, direction) => {
