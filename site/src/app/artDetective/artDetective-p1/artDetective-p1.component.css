@@ -3,15 +3,15 @@
     font-size: 16px;
     line-height: 1.75;
   }
-  
-  #timeline-p1 {
+
+  #artDetective-p1 {
     display: flex;
     background-color: #031625;
   }
-  #timeline-p1:hover .tl-item {
+  #artDetective-p1:hover .tl-item {
     width: 23.3333%;
   }
-  
+
   .tl-item {
     transform: translate3d(0, 0, 0);
     position: relative;
@@ -62,7 +62,7 @@
   .tl-item:hover .tl-bg {
     filter: grayscale(0);
   }
-  
+
   .tl-content {
     transform: translate3d(0, 0, 0) translateY(25px);
     position: relative;
@@ -102,7 +102,7 @@
     font-size: 1.728rem;
     line-height: 1;
   }
-  
+
   .tl-bg {
     transform: translate3d(0, 0, 0);
     position: absolute;

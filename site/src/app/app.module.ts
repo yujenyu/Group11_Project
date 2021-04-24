@@ -18,25 +18,37 @@ import { TimelineP1Component } from './timeline-p1/timeline-p1.component';
 import { TimelineP2Component } from './timeline-p2/timeline-p2.component';
 import { TimelineP3Component } from './timeline-p3/timeline-p3.component';
 import { FunFactsP1Component } from './funfacts-p1/funfacts-p1.component';
+// art detective
+import { ArtDetectiveP1Component } from './artDetective/artDetective-p1/artDetective-p1.component';
+import { ArtDetectiveP2Component } from './artDetective/artDetective-p2/artDetective-p2.component';
+import { PlayComponent } from './artDetective/play-popup/play/play.component';
+import { PlayButtonComponent } from './artDetective/play-popup/play-button/play-button.component';
+import { PlayPopupDirective } from './artDetective/play-popup/play-popup.directive';
 
 @NgModule({
-  imports:      [ 
-    BrowserModule, 
+  imports:      [
+    BrowserModule,
     AngularFullpageModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatIconModule,
     OverlayModule ],
-  declarations: [ 
-    AppComponent, 
-    TimelineP1Component, 
-    TimelineP2Component, 
+  declarations: [
+    AppComponent,
+    TimelineP1Component,
+    TimelineP2Component,
     TimelineP3Component,
     FunFactsP1Component,
     InfoButtonComponent,
     InfoComponent,
-    InfoPopupDirective ],
+    InfoPopupDirective,
+    ArtDetectiveP1Component,
+    ArtDetectiveP2Component,
+    PlayComponent,
+    PlayButtonComponent,
+    PlayPopupDirective
+  ],
   bootstrap:    [ AppComponent ],
-  entryComponents: [InfoComponent]
+  entryComponents: [InfoComponent, PlayComponent]
 })
 export class AppModule { }

@@ -12,20 +12,20 @@ import { ConnectionPositionPair, Overlay, OverlayRef } from '@angular/cdk/overla
 
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
-import { InfoButtonComponent } from './info-button/info-button.component';
+import { PlayButtonComponent } from './play-button/play-button.component';
 import { TemplatePortal } from '@angular/cdk/portal';
 
 @Directive({
-  selector: '[appInfoPopup]',
+  selector: '[appPlayPopup]',
 })
-export class InfoPopupDirective implements OnInit, OnDestroy, AfterViewInit {
-  @Input() appInfoPopup!: TemplateRef<object>;
+export class PlayPopupDirective implements OnInit, OnDestroy, AfterViewInit {
+  @Input() appPlayPopup!: TemplateRef<object>;
   @Input() label!: HTMLElement;
   private unsubscribe = new Subject();
   private overlayRef!: OverlayRef;
 
   constructor(
-    @Host() private infoButton: InfoButtonComponent,
+    @Host() private playButton: PlayButtonComponent,
     private overlay: Overlay,
     private vcr: ViewContainerRef,
   ) { }
@@ -35,7 +35,7 @@ export class InfoPopupDirective implements OnInit, OnDestroy, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.infoButton.infoButtonClicked.asObservable().subscribe(() => {
+    this.playButton.playButtonClicked.asObservable().subscribe(() => {
       this.attachOverlay();
     });
   }
@@ -73,7 +73,7 @@ export class InfoPopupDirective implements OnInit, OnDestroy, AfterViewInit {
 
   private attachOverlay(): void {
     if (!this.overlayRef.hasAttached()) {
-      const periodSelectorPortal = new TemplatePortal(this.appInfoPopup, this.vcr);
+      const periodSelectorPortal = new TemplatePortal(this.appPlayPopup, this.vcr);
 
       this.overlayRef.attach(periodSelectorPortal);
     }

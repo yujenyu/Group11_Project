@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TimelineP1Component } from './timeline-p1.component';
+import { ArtDetectiveP1Component } from './artDetective-p1.component';
 
-describe('TimelineP1Component', () => {
-  let component: TimelineP1Component;
-  let fixture: ComponentFixture<TimelineP1Component>;
+describe('ArtDetectiveComponent', () => {
+  let component: ArtDetectiveP1Component;
+  let fixture: ComponentFixture<ArtDetectiveP1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TimelineP1Component ]
+      declarations: [ ArtDetectiveP1Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TimelineP1Component);
+    fixture = TestBed.createComponent(ArtDetectiveP1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
