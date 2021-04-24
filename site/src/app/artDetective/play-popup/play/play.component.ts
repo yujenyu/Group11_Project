@@ -32,10 +32,10 @@ export class PlayComponent{
     let paintingPath: string;
     switch (this.paintingNumber) {
       case 1:
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_school_of_athens.png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_school_of_athens.png';
         break;
       case 6:
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_D\'ou_venons-nous(half).png';
         break;
     }
     return 'url("' + paintingPath + '") no-repeat';
