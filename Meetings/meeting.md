@@ -6,10 +6,7 @@
 
 #### Meeting Objective
 
-First meeting
-
-#### Agenda
-
+First meeting.
 
 #### Notes & decisions
 
@@ -17,17 +14,25 @@ Introduce ourselves, create the repo.
 
 #### Next steps
 
+Think about the topic and game generes.
+
 
 
 ### Week 1 (11/02/21, 09:00 - 10:30)
 
 #### Meeting Objective
 
-#### Agenda
+Project outline, timeline, and proposal.
 
 #### Notes & decisions
 
+Discuss the topic and game generes of project.
+
+Create a prototype of the project.
+
 #### Next steps
+
+Combine the ideas for prototype.
 
 
 
@@ -35,11 +40,21 @@ Introduce ourselves, create the repo.
 
 #### Meeting Objective
 
+Project ideas.
+
 #### Agenda
+
+Present the idea of the project and discuss.
 
 #### Notes & decisions
 
+Vote and decide the idea.
+
+Topic: "ART history education for children".
+
 #### Next steps
+
+Do the research for art history before next meeting.
 
 
 
@@ -47,11 +62,19 @@ Introduce ourselves, create the repo.
 
 #### Meeting Objective
 
+Skeleton of art history.
+
 #### Agenda
+
+Overview the timeline of art history.
 
 #### Notes & decisions
 
+Talk about details of each period, and decide to focus on which period.
+
 #### Next steps
+
+Teamworks for timeline of art history.
 
 
 
@@ -59,17 +82,29 @@ Introduce ourselves, create the repo.
 
 #### Meeting Objective
 
-#### Agenda
+Paper prototyping.
+
+Type of games, principles for critical thinking.
 
 #### Notes & decisions
 
+Vote for type of games, and period of art history.
+
+Assign the works for each team member.
+
 #### Next steps
+
+Do research and focus on the period which be responsible for.
+
+Push on Github before next meeting.
 
 
 
 ### Week 5 (09/03/21, 13:00 - 13:30)
 
 #### Meeting Objective
+
+Design thinking, Schema
 
 #### Agenda
 
@@ -95,7 +130,11 @@ Introduce ourselves, create the repo.
 
 #### Meeting Objective
 
+Set up everything before feedback meeting
+
 #### Agenda
+
+Turn paper prototype into a wireframe
 
 #### Notes & decisions
 
@@ -107,11 +146,23 @@ Introduce ourselves, create the repo.
 
 #### Meeting Objective
 
+Project prototyping.
+
+Video of prototyping by Lauren.
+
 #### Agenda
+
+Give the feedback of the video
 
 #### Notes & decisions
 
+Discuss about the game type and how to implement it.
+
+Two type of game: "Fun facts", "Art Detective".
+
 #### Next steps
+
+Modify the prototype and implement skeleton of the game.
 
 
 
@@ -188,6 +239,18 @@ Introduce ourselves, create the repo.
 
 
 ### Week 11 (22/04/21, 15:00 - 16:00)
+
+#### Meeting Objective
+
+#### Agenda
+
+#### Notes & decisions
+
+#### Next steps
+
+
+
+### Week 11 (24/04/21, 10:00 - 10:3 0)
 
 #### Meeting Objective
 
