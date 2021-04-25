@@ -1,4 +1,4 @@
-import {Component, Input, HostListener} from '@angular/core';
+import {Component, Input, HostListener, ElementRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-play',
@@ -6,16 +6,22 @@ import {Component, Input, HostListener} from '@angular/core';
   styleUrls: ['./play.component.scss'],
 })
 
-export class PlayComponent{
+export class PlayComponent {
   allDif: number;
   remainDif: number;
+  public code: any;
   // pass the photo number
+  @ViewChild('myCanvas') canvas: ElementRef;
   @Input() paintingNumber: number;
-  @HostListener('mousemove', ['$event']) onMouseMove(e): number {
-    return 1;
+  @HostListener('click') onMouseMove(e): void {
+    const canvasPosition = this.canvas.nativeElement.getBoundingClientRect();
+    const mouseX = e.pageX - canvasPosition.x;
+    const mouseY = e.pageY - canvasPosition.y;
+    this.getPoint(mouseX, mouseY);
   }
   constructor() {
   }
+  // find the painting data by number
   public getPaintingName(): string {
     let paintingName: string;
     switch (this.paintingNumber) {
@@ -72,7 +78,17 @@ export class PlayComponent{
     }
     return description;
   }
-
+  private drawCir(x: number, y: number, r: number): void {
+    const ctx: CanvasRenderingContext2D = this.canvas.nativeElement.getContext('2d');
+    ctx.strokeStyle = 'red';
+    ctx.lineWidth = 5;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, 2 * Math.PI);
+    ctx.stroke();
+  }
+  private getPoint(x: number, y: number): void {
+    this.drawCir(x, y, 50);
+  }
 }
 
 

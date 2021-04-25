@@ -4,13 +4,13 @@
     <h2 [innerHTML]='getProgress()'></h2>
   </div>
   <div>
-    <canvas [style.background]='getPaintingUrl()'></canvas>
+    <canvas #myCanvas [style.background]='getPaintingUrl()' width="1280px" height="500px" (click)='onMouseMove($event)'></canvas>
+    <div></div>
   </div>
   <div>
     <h2 [innerText]='getDescription()'>
     </h2>
   </div>
-
 </section>
 
 
