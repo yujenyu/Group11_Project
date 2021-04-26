@@ -11,7 +11,7 @@ export class PlayComponent implements OnInit {
   paintingUrl: string;
   allDif: number;
   remainDif: number;
-  difData: [[]];
+  // difData: [number][number][boolean];
 
   draw: boolean;
   // pass the photo number
@@ -21,13 +21,13 @@ export class PlayComponent implements OnInit {
   @Input() paintingNumber: number;
 
   @HostListener('click') onMouseMove(e): void {
+    if (this.remainDif === 0) {
+      return;
+    }
     const canvasPosition = this.canvas.nativeElement.getBoundingClientRect();
     const mouseX = e.pageX - canvasPosition.x;
     const mouseY = e.pageY - canvasPosition.y;
-    this.remainDif--;
     this.checkDraw(mouseX, mouseY);
-    this.progressText.nativeElement.innerHTML = this.getGameProgress();
-    this.gameDescription.nativeElement.innerHTML = this.getDescription();
   }
 
   constructor() {
@@ -45,10 +45,50 @@ export class PlayComponent implements OnInit {
     switch (this.paintingNumber) {
       case 1:
         paintingName = 'The school of athens';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_school_of_athens.png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_school_of_athens.png';
         allDif = 3;
         break;
+      case 2:
+        paintingName = 'The Calling of St Matthew';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_the%20calling%20of%20st%20matthew.png';
+        allDif = 3;
+        break;
+      case 3:
+        paintingName = 'Liberty Leading the People';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_liberty_leading_the_people.png';
+        allDif = 3;
+        break;
+      case 4:
+        paintingName = 'The school of athens';
+        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_The_Scream.png';
+        allDif = 3;
+        break;
+      case 5:
+        paintingName = 'cdscsa';
+        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_the%20calling%20of%20st%20matthew.png';
+        allDif = 4;
+        break;
       case 6:
+        paintingName = 'cdscsa';
+        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        allDif = 4;
+        break;
+      case 7:
+        paintingName = 'cdscsa';
+        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        allDif = 4;
+        break;
+      case 8:
+        paintingName = 'cdscsa';
+        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        allDif = 4;
+        break;
+      case 9:
+        paintingName = 'cdscsa';
+        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        allDif = 4;
+        break;
+      case 10:
         paintingName = 'cdscsa';
         paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
         allDif = 4;
@@ -68,13 +108,11 @@ export class PlayComponent implements OnInit {
 
   public getDescription(): string {
     let description: string;
-    if (this.remainDif === this.allDif) {
-      description = '';
-      return description;
-    }
     switch (this.paintingNumber) {
       case 1:
-        if (this.remainDif === 1) {
+        if (this.remainDif === this.allDif) {
+          description = '"School of Athens" is a large mural that the Pope ordered Raphael to paint in the Vatican palace, depicting intellectuals and hero from the ancient Greeks to the Renaissance.';
+        } else if (this.remainDif === 1) {
           description = 'Each of the two statues represents ancient Greek and Roman deities associated with wisdom.' +
             'The statue on the right is a Minerva is a goddess of wisdom, warfare, and justice and an incarnation of studies.' +
             'The one in the left is Apollo, the god of reason and harmony, who presides over the arts and entertainment,' +
@@ -92,7 +130,6 @@ export class PlayComponent implements OnInit {
     }
     return description;
   }
-
   private drawCir(x: number, y: number, r: number): void {
     const ctx: CanvasRenderingContext2D = this.canvas.nativeElement.getContext('2d');
     ctx.strokeStyle = 'red';
@@ -101,9 +138,28 @@ export class PlayComponent implements OnInit {
     ctx.arc(x, y, r, 0, 2 * Math.PI);
     ctx.stroke();
   }
-
   private checkDraw(x: number, y: number): void {
-    this.drawCir(x, y, 50);
+    let i: number;
+    for (i = 0; i < this.allDif; i++) {
+      if (!this.isDrew(i) && this.isPointInCircle(x, y, 50, 50, 50)) {
+        this.drawCir(50, 50, 50);
+        this.remainDif--;
+        // turn isDrew to true;
+        this.progressText.nativeElement.innerHTML = this.getGameProgress();
+        this.gameDescription.nativeElement.innerHTML = this.getDescription();
+        return;
+      }
+    }
+  }
+  private isPointInCircle(x: number, y: number, centerX: number, centerY: number, radius: number): boolean {
+    const dx = x - centerX;
+    const dy = y - centerY;
+    const distSq = dx * dx + dy * dy;
+    const rsq = radius * radius;
+    return distSq < rsq;
+  }
+  private isDrew(difId: number): boolean {
+    return false;
   }
 }
 
