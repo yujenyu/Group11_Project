@@ -18,6 +18,7 @@ import { TimelineP1Component } from './timeline-p1/timeline-p1.component';
 import { TimelineP2Component } from './timeline-p2/timeline-p2.component';
 import { TimelineP3Component } from './timeline-p3/timeline-p3.component';
 import { FunFactsP1Component } from './funfacts-p1/funfacts-p1.component';
+import { FunFactsP2Component } from './funfacts-p2/funfacts-p2.component';
 
 @NgModule({
   imports:      [ 
@@ -33,6 +34,7 @@ import { FunFactsP1Component } from './funfacts-p1/funfacts-p1.component';
     TimelineP2Component, 
     TimelineP3Component,
     FunFactsP1Component,
+    FunFactsP2Component,
     InfoButtonComponent,
     InfoComponent,
     InfoPopupDirective ],
