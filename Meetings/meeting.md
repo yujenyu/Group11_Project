@@ -250,7 +250,7 @@ Modify the prototype and implement skeleton of the game.
 
 
 
-### Week 11 (24/04/21, 10:00 - 10:3 0)
+### Week 11 (24/04/21, 10:00 - 10:30)
 
 #### Meeting Objective
 
@@ -259,3 +259,23 @@ Modify the prototype and implement skeleton of the game.
 #### Notes & decisions
 
 #### Next steps
+
+
+
+### Week 12 (27/04/21, 14:00 - 15:00)
+
+#### Meeting Objective
+
+Discuss issues and bugs.
+
+#### Agenda
+
+Fix the bugs and redesign the game page.
+
+#### Notes & decisions
+
+Apply new template for game page, not to change the size of game's painting.
+
+#### Next steps
+
+Incorporate the menu and game interface, try to help Masa for back end.
