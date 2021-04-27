@@ -45,52 +45,55 @@ export class PlayComponent implements OnInit {
     switch (this.paintingNumber) {
       case 1:
         paintingName = 'The school of athens';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_school_of_athens.png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_school_of_athens.png';
         allDif = 3;
         break;
       case 2:
         paintingName = 'The Calling of St Matthew';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_the%20calling%20of%20st%20matthew.png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_the%20calling%20of%20st%20matthew.png';
         allDif = 3;
         break;
       case 3:
         paintingName = 'Liberty Leading the People';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_painting/join_liberty_leading_the_people.png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/' +
+          'join_images/join_liberty_leading_the_people.png';
         allDif = 3;
         break;
       case 4:
         paintingName = 'The school of athens';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_The_Scream.png';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_Olympia.png';
         allDif = 3;
         break;
       case 5:
-        paintingName = 'cdscsa';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_the%20calling%20of%20st%20matthew.png';
+        paintingName = 'Where Do We Come From? What Are We? Where Are We Going?';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_D\'ou_venons-nous.png';
         allDif = 4;
         break;
       case 6:
-        paintingName = 'cdscsa';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        paintingName = 'Still Life with Aubergines';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/' +
+          'join_images/join_still-life-with-aubergines.png';
         allDif = 4;
         break;
       case 7:
-        paintingName = 'cdscsa';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        paintingName = 'The Scream';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_The_Scream.png';
         allDif = 4;
         break;
       case 8:
-        paintingName = 'cdscsa';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        paintingName = 'The Ladies of Avignon';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/' +
+          'join_images/join_Les_Demoiselles_d\'Avignon.png';
         allDif = 4;
         break;
       case 9:
-        paintingName = 'cdscsa';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        paintingName = 'The Persistence of Memory';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_The_Persistence_of_Memory.png';
         allDif = 4;
         break;
       case 10:
-        paintingName = 'cdscsa';
-        paintingPath = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
+        paintingName = 'New York City I';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_New%20York%20City%20I.png';
         allDif = 4;
         break;
     }
