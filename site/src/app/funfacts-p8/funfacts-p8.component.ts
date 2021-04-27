@@ -4,11 +4,11 @@ declare const off: any;
 
 
 @Component({
-  selector: 'app-funfacts-p1',
-  templateUrl: './funfacts-p1.component.html',
-  styleUrls: ['./funfacts-p1.component.css'],
+  selector: 'app-funfacts-p8',
+  templateUrl: './funfacts-p8.component.html',
+  styleUrls: ['./funfacts-p8.component.css'],
 })
-export class FunFactsP1Component implements OnInit{
+export class FunFactsP8Component implements OnInit{
 
   constructor() {
   }

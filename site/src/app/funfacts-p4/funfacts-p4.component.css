@@ -5,9 +5,9 @@ body {
 
 .wrapper {
   background-color: #fdf1ec;
-  height: 60vh;
-  width: 88vw;
-  margin: 20vh auto;
+  height: 70vh;
+  width: 70vw;
+  margin: 15vh auto;
   overflow: auto;
   border-radius: 3vh 3vh 3vh 3vh;
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);

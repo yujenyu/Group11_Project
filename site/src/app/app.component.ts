@@ -1,4 +1,4 @@
-import { Component, Renderer2 } from '@angular/core';
+import { Component, OnInit, Renderer2, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'my-app',
@@ -6,9 +6,10 @@ import { Component, Renderer2 } from '@angular/core';
   styleUrls: [ './app.component.scss' ]
 })
 
-export class AppComponent {
-  config: any;
-  fullpage_api: any;
+export class AppComponent implements OnInit {
+  @ViewChild('fullpageRef') fp_directive: ElementRef;
+  config;
+  fullpage_api;
 
   constructor(private renderer: Renderer2) {
 
@@ -17,16 +18,26 @@ export class AppComponent {
       licenseKey: 'YOUR LICENSE KEY HERE',
       anchors: ['welcome', 'timeline', 'funfacts', 'artdetective'],
       menu: '#menu',
+      navigation: true,
       sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke'],
 
-      // fullpage callbacks
-      afterResize: () => {
-        console.log("After resize");
-      },
+      // events callback
       afterLoad: (origin, destination, direction) => {
-        console.log(origin.index);
+        // console.log(destination);
+      },
+      afterRender: () => {
+        // console.log('afterRender');
+      },
+      afterResize: (width, height) => {
+        // console.log('afterResize' + width + ' ' + height);
+      },
+      afterSlideLoad: (section, origin, destination, direction) => {
+        // console.log(destination);
       }
     };
+  }
+
+  ngOnInit() {
   }
 
   getRef(fullPageRef) {

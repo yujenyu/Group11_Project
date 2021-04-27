@@ -1,0 +1,45 @@
+body {
+  background-color: #2f414f;
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  background-color: #fdf1ec;
+  height: 52vh;
+  width: 90vw;
+  margin: 24vh auto;
+  overflow: auto;
+  border-radius: 3vh 3vh 3vh 3vh;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.masterpiece {
+  float: left;
+}
+
+.masterpiece img {
+  border-radius: 3vh 0vh 0vh 3vh;
+}
+
+.description p {
+  color: #4c4c4c;
+  font-size: 1.8vh;
+}
+
+  /* ----- Informations Section ----- */
+.product__info {
+  padding: 0.8em 0;
+}
+
+.title h1 {
+  font-family: "Raleway", sans-serif;
+  color: #4c4c4c;
+  font-size: 2.5vh;
+}
+
+.description {
+  clear: left;
+  margin: 2em 0;
+}

@@ -1,84 +1,82 @@
-<body>
-  <section class="cards-wrapper">
-	<div class="card-grid-space">
-	  <a class="card" href="" style="--bg-img: url(https://www.gannett-cdn.com/-mm-/33270e34a59fb95cfaa9882f98ee37161bbe36d5/c=0-31-1473-1995/local/-/media/2016/05/17/Cincinnati/Cincinnati/635990776725216426-monalisa.jpg?width=660&height=880&fit=crop&format=pjpg&auto=webp)">
-		<div>
-		  <h1>Renaissance</h1>
-		  <div class="date">1400 - 1525</div>
-		</div>
-	  </a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://upload.wikimedia.org/wikipedia/commons/a/ab/Caravaggio_-_La_Deposizione_di_Cristo.jpg)">
-		  <div>
-			<h1>Baroque</h1>
-			<div class="date">1600 - 1700</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FxscrFu940ykaXFUJw9cdXA%2Flarger.jpg&width=600&quality=80)">
-		  <div>
-			<h1>Romanticism</h1>
-			<div class="date">1770 - 1850</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/400px-Monet_-_Impression%2C_Sunrise.jpg)">
-		  <div>
-			<h1>Impressionism</h1>
-			<div class="date">1860 - 1880</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://www.vincentvangogh.org/images/paintings/cafe-terrace-at-night.jpg)">
-		  <div>
-			<h1>Post Impressionism</h1>
-			<div class="date">1885 - 1905</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://www.henrimatisse.org/images/gallery/green-stripe.jpg)">
-		  <div>
-			<h1>Fauvism</h1>
-			<div class="date">1900 - 1907</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://www.liveauctioneers.com/news/wp-content/uploads/2021/02/Skrik_Nasjonalgalleriet_Oslo_10_2018_3930-1.jpg)">
-		  <div>
-			<h1>Expressionism</h1>
-			<div class="date">1905 - 1933</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/350px-Les_Demoiselles_d%27Avignon.jpg)">
-		  <div>
-			<h1>Cubism</h1>
-			<div class="date">1907 - 1922</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://upload.wikimedia.org/wikipedia/en/2/2b/The_Elephant_Celebes.jpg)">
-		  <div>
-			<h1>Dadaism and Surrealism</h1>
-			<div class="date">1909 - 1930</div>
-		  </div>
-		</a>
-	</div>
-	<div class="card-grid-space">
-		<a class="card" href="" style="--bg-img: url(https://collectionapi.metmuseum.org/api/collection/v1/iiif/486735/1004879/restricted)">
-		  <div>
-			<h1>Abstract Expressionism</h1>
-			<div class="date">1940s - 1950s</div>
-		  </div>
-		</a>
-	</div>
-  </section>
-</body>
+<section id="funfacts-p2">
+
+
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+    </head>
+
+    <body>
+      <div class="wrapper">
+        <div class="masterpiece">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/800px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" style="height:100%">
+        </div>
+
+        <p style="font-size:2.5vh"><br>The Birth of Venus</p>
+        <p1 style="font-size:2vh">Sandro Botticelli<br>1484-1486<br><br></p1>
+
+     <div class="label" #label>
+      <app-Quiz-button [appQuizPopup]="Quiz" [label]="label"></app-Quiz-button>
+     </div>
+
+    <ng-template #Quiz>
+      <app-Quiz>
+        <div class="product__Quiz">
+          <div class="title">
+            <h1>1. Why does not Venus wear clothes?</h1>
+          </div>
+          <div class="description">
+            <p>Because she was just born, the goddess Trois Graces next to her was about to help her dress. This is not the moment when ordinary people are born, but the birth of a goddess. According to legend, Venus was already an adult when she was born.
+            </p>
+          </div>
+        </div>
+      </app-Quiz>
+    </ng-template>
+
+    <ng-template #Quiz2>
+      <app-Quiz>
+        <div class="product__Quiz">
+          <div class="title">
+            <h1>2. What kind of flower is the flower in the painting?</h1>
+          </div>
+          <div class="description">
+            <p>Next to Venus are roses. Because roses are symbols of love and beauty, they are usually painted around Venus. When Venus steps on the ground, roses will grow wherever she walks. Also, because it was spring, Botticelli painted cornflowers. The patterns on the goddess Trois Graces's robe is the evergreen crape myrte flowers, which symbolize eternal life.
+            </p>
+          </div>
+        </div>
+      </app-Quiz>
+    </ng-template>
+
+    <ng-template #Quiz3>
+      <app-Quiz>
+        <div class="product__Quiz">
+          <div class="title">
+            <h1>3. Why are there almost no shadows in the painting?</h1>
+          </div>
+          <div class="description">
+            <p>In order to express Venus's beauty, which is beyond ordinary people, bright and soft colours were used throughout the painting. Her complexion reminds people of pearls, and the whole person is radiant. This painting allows people to see that her radiance has changed the world. Although the right side of the painting is darker, it looks like Venus has driven the darkness away.
+            </p>
+          </div>
+        </div>
+      </app-Quiz>
+    </ng-template>
+
+
+    <ng-template #Quiz4>
+      <app-Quiz>
+        <div class="product__Quiz">
+          <div class="title">
+            <h1>4. Why do the people in the painting seem to be "attached" to the background?</h1>
+          </div>
+          <div class="description">
+            <p>This is because Botticelli deliberately emphasized the characters' outline, which makes people feel as if they can be cut along the contour. The body drawn with meticulous lines is like a prison that seals the soul. This concept comes from the Medici family's close Neo-Platonists, which were very popular in Florence in the fifteenth century. Botticelli often stayed with these philosophers and was deeply influenced by their thoughts.
+            </p>
+          </div>
+        </div>
+      </app-Quiz>
+    </ng-template>
+
+    </div>
+    </body>
+
+
+</section>

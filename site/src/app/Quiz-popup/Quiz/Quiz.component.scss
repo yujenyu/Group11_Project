@@ -1,0 +1,29 @@
+
+
+// .Quiz-popover {
+//   word-break: break-word;
+//   width: 500px;
+//   height: 500px;
+//   /*z-index: 500;*/
+//   max-width: 95%;
+//   margin-top: 5px;
+//   margin-bottom: 5px;
+//   background-color: #fff;
+// }
+
+  /* ----- Product Section ----- */
+.product {
+  font-family: "Raleway", sans-serif;
+  /*display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  margin: auto;
+  border-radius: 5px;*/
+  background-color: #a9b8c4;
+  width: 60vw;
+  height: 40vh;
+  padding: 2% 2%;
+  position: fixed;
+  top: 30%;
+  left: 20%;
+  overflow: auto;
+}
