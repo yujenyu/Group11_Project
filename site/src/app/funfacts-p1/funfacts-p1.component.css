@@ -1,53 +1,106 @@
-* {
-    box-sizing: border-box;
-  }
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
-  body, h1, h5,p {
-    font-family: "Raleway", sans-serif;
-  }
+article {
+  display: flex;
+  height: 100%;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 0px 50px -10px #9a7289;
+}
 
-  /* Style the header */
-  header {
-    background-color: #666;
-    padding:30px;
-    text-align: center;
-    color: white;
-  }
+aside {
+  width: 35%;
+  background-color: #ccc;
+}
+aside img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
-  /* Container for flexboxes */
-  section {
-    display: -webkit-flex;
-    display: flex;
-  }
+section {
+  width: 70%;
+  overflow: hidden;
+  padding: 2% 5% 0;
+  position: relative;
+}
+section:before {
+  position: absolute;
+  right: 0;
+  width: 5%;
+  top: 0;
+  height: 100%;
+  background: red;
+}
 
-  /* Style the navigation menu */
-  nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: #ccc;
-    padding: 20px;
-  }
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
+}
 
-  /* Style the list inside the menu */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
+h1 {
+  font-size: 6vw;
+  margin: 0 0 2vw 0;
+}
 
-  /* Style the content */
-  article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
+h2 {
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 0 1vw 0;
+}
 
-  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-    section {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+@keyframes move {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
   }
+  100% {
+    transform: translate3d(-1250px, 0px, 0px);
+  }
+}
+.teaser {
+  display: flex;
+  margin: 0 0 3vw 0;
+  animation: move 20s forwards linear;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+.teaser figure {
+  overflow: hidden;
+  margin: 0;
+  width: 250px;
+  min-width: 250px;
+  padding: 0 30px 0 0;
+  position: relative;
+}
+.teaser img {
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+}
+.teaser figcaption {
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  font-size: 20px;
+  color: #000;
+  mix-blend-mode: screen;
+}
+.teaser figcaption h3 {
+  margin: 0;
+  padding: 3px 5px;
+  width: 100%;
+}
+
+button {
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  font-size: 24px;
+  cursor: pointer;
+}
