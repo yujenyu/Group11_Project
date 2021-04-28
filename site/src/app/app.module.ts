@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // added
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
+import { FrontPageComponent } from './FrontPage/frontpage.component';
 import { TimelineP1Component } from './timeline-p1/timeline-p1.component';
 import { TimelineP2Component } from './timeline-p2/timeline-p2.component';
 import { TimelineP3Component } from './timeline-p3/timeline-p3.component';
@@ -33,10 +34,11 @@ import { PlayPopupDirective } from './artDetective/play-popup/play-popup.directi
     MatCardModule,
     MatIconModule,
     OverlayModule ],
-  declarations: [
-    AppComponent,
-    TimelineP1Component,
-    TimelineP2Component,
+  declarations: [ 
+    AppComponent, 
+    FrontPageComponent,
+    TimelineP1Component, 
+    TimelineP2Component, 
     TimelineP3Component,
     FunFactsP1Component,
     InfoButtonComponent,
