@@ -34,7 +34,12 @@ import { FunFactsP11Component } from './funfacts-p11/funfacts-p11.component';
 import { QuizComponent } from './Quiz-popup/Quiz/Quiz.component';
 import { QuizButtonComponent } from './Quiz-popup/Quiz-button/Quiz-button.component';
 import { QuizPopupDirective } from './Quiz-popup/Quiz-popup.directive';
-
+// art detective
+import { ArtDetectiveP1Component } from './artDetective/artDetective-p1/artDetective-p1.component';
+import { ArtDetectiveP2Component } from './artDetective/artDetective-p2/artDetective-p2.component';
+import { PlayComponent } from './artDetective/play-popup/play/play.component';
+import { PlayButtonComponent } from './artDetective/play-popup/play-button/play-button.component';
+import { PlayPopupDirective } from './artDetective/play-popup/play-popup.directive';
 
 @NgModule({
   imports:      [
@@ -62,14 +67,17 @@ import { QuizPopupDirective } from './Quiz-popup/Quiz-popup.directive';
     FunFactsP9Component,
     FunFactsP10Component,
     FunFactsP11Component,
-
     QuizComponent,
     QuizButtonComponent,
     QuizPopupDirective,
-
     InfoButtonComponent,
     InfoComponent,
     InfoPopupDirective,
+    ArtDetectiveP1Component,
+    ArtDetectiveP2Component,
+    PlayComponent,
+    PlayButtonComponent,
+    PlayPopupDirective
   ],
   bootstrap:    [ AppComponent ],
   entryComponents: [InfoComponent, QuizComponent]
