@@ -9,12 +9,6 @@
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-  background: rgba(3, 22, 37, 0.85);
-  position: relative;
-}
-
 .cards-wrapper {
   display: grid;
   justify-content: center;
@@ -31,8 +25,7 @@ body {
 }
 
 .card {
-  --bg-filter-opacity: 0.5;
-  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), var(--bg-img);
   height: 16em;
   width: 14em;
   font-size: 0.3em;
@@ -118,12 +111,13 @@ body {
 }
 
 .card:after {
-  background-image: url("https://icon-library.net//images/play-video-icon-png-transparent/play-video-icon-png-transparent-15.jpg");
-  background-size: 15%;
+  background-image: url("https://github.com/yujenyu/Group11_Project/raw/master/game_material/play_icon.png"), linear-gradient(rgba(256,256,256,0.5), rgba(256,256,256,0), rgba(256,256,256,0.8)), var(--bg-img);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   width: 200%;
   height: 200%;
+
 }
 
 .card:hover {
@@ -132,6 +126,11 @@ body {
 
 .card:hover:before, .card:hover:after {
   transform: scale(1);
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */

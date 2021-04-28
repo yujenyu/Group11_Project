@@ -78,6 +78,6 @@ export class PlayButtonComponent implements OnInit {
     }
     this.periodName = periodName;
     this.periodTime = periodTime;
-    this.style = 'background-image: url("' + paintingPath + '")';
+    this.style = '--bg-img: url("' + paintingPath + '")';
   }
 }
