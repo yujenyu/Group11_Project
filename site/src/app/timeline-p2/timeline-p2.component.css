@@ -86,6 +86,7 @@ body {
     color: #fff;
     font-size: 1.25rem;
     font-weight: normal;
+    line-height: 1.5;
   }
 
   .tl-year {
@@ -166,7 +167,7 @@ body {
     left: 400;
     top: 100;
     clear: left;
-    margin: 2em 15 0 0;
+    margin: 2em 30 0 0;
     text-align: justify;
     text-justify:inter-ideograph;
     line-height: 1.3;
