@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './frontpage.component.html',
   styleUrls: ['./frontpage.component.css'],
 })
-export class FrontPageComponent { }
+export class FrontPageComponent {}
