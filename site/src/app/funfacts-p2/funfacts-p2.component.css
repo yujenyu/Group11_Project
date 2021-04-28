@@ -43,3 +43,76 @@ body {
   clear: left;
   margin: 2em 0;
 }
+
+.details-modal {
+  font-family: "Raleway", sans-serif;
+  width: 60vw;
+  height: 50vh;
+  padding: 2% 2%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  background: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* left: 50%; */
+  max-width: 50%;
+  pointer-events: none;
+  /* position: absolute; */
+  /* top: 50%; */
+  transform: translate(-50%, -50%);
+  /* width: 50em; */
+  text-align: left;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.details-modal .details-modal-close svg {
+  display: block;
+}
+.details-modal .details-modal-title {
+  color: #111827;
+  padding: 1.5em 2em;
+  pointer-events: all;
+  position: relative;
+  width: calc(100% - 4.5em);
+}
+.details-modal .details-modal-title h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.details-modal .details-modal-content {
+  border-top: 1px solid #e0e0e0;
+  padding: 2em;
+  pointer-events: all;
+  overflow: auto;
+}
+
+.details-modal-overlay {
+  transition: opacity 0.2s ease-out;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.8);
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+details[open] .details-modal-overlay {
+  pointer-events: all;
+  opacity: 0.5;
+}
+
+details summary {
+  list-style: none;
+}
+details summary:focus {
+  outline: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
