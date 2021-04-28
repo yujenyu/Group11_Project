@@ -1,7 +1,7 @@
 .gameScene {
   display: block;
   grid-template-columns: 0.9fr 1fr;
-  background-color: #031625;
+  background: rgba(3, 22, 37, 0.85);
   margin: auto;
   width: 1286px;
   height: 700px;
@@ -10,9 +10,9 @@
   left:50%;
   top:50%;
   transform: translate(-50%,-50%);
-
   max-width: 1300px;
   text-align: center;
+  border-radius: 25px;
 }
 
 h1 {

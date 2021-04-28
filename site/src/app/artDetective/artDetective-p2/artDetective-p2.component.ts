@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './artDetective-p2.component.html',
   styleUrls: ['./artDetective-p2.component.css']
 })
-export class ArtDetectiveP2Component{
-  constructor() {
-  }
+export class ArtDetectiveP2Component {
 }
+

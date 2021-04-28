@@ -1,111 +1,86 @@
-<section id="artDetective-p2">
+<body>
+  <section class="cards-wrapper">
 
-  <div class="tl-item">
-
-    <div class="tl-bg" style="background-image: url(https://github.com/yujenyu/Group11_Project/raw/master/game_material/original_image/still-life-with-aubergines.jpg)"></div>
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Fauvism</p>
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play1" [periodId]="1"></app-play-button>
+      <ng-template #play1>
+        <app-play [paintingNumber] = 1>
+        </app-play>
+      </ng-template>
     </div>
 
-    <div class="tl-content">
-      <h1>Still Life with Aubergines</h1>
-      <p>Raphael, 1509–1511</p>
-      <div class="label" #label>
-        <app-play-button [appPlayPopup]="play1" [label]="label"></app-play-button>
-      </div>
-      <ng-template #play1>
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play2" [periodId]="2"></app-play-button>
+      <ng-template #play2>
+        <app-play [paintingNumber] = 2>
+        </app-play>
+      </ng-template>
+    </div>
+
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play3" [periodId]="3"></app-play-button>
+      <ng-template #play3>
+        <app-play [paintingNumber] = 3>
+        </app-play>
+      </ng-template>
+    </div>
+
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play4" [periodId]="4"></app-play-button>
+      <ng-template #play4>
+        <app-play [paintingNumber] = 4>
+        </app-play>
+      </ng-template>
+    </div>
+
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play5" [periodId]="5"></app-play-button>
+      <ng-template #play5>
+        <app-play [paintingNumber] = 5>
+        </app-play>
+      </ng-template>
+    </div>
+
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play6" [periodId]="6"></app-play-button>
+      <ng-template #play6>
         <app-play [paintingNumber] = 6>
         </app-play>
       </ng-template>
     </div>
-  </div>
 
-  <div class="tl-item">
-
-    <div class="tl-bg" style="background-image: url(https://github.com/yujenyu/Group11_Project/raw/master/game_material/original_image/the%20calling%20of%20st%20matthew.jpg)"></div>
-
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Expressionism</p>
-    </div>
-
-    <div class="tl-content">
-      <h1>The Scream</h1>
-      <p>Raphael, 1509–1511</p>
-      <div class="label" #label>
-        <app-play-button [appPlayPopup]="play2" [label]="label"></app-play-button>
-      </div>
-      <ng-template #play2>
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play7" [periodId]="7"></app-play-button>
+      <ng-template #play7>
         <app-play [paintingNumber] = 7>
-
         </app-play>
       </ng-template>
     </div>
-  </div>
 
-  <div class="tl-item">
-
-    <div class="tl-bg" style="background-image: url(https://github.com/yujenyu/Group11_Project/raw/master/game_material/original_image/Les_Demoiselles_d\'Avignon.jpg)"></div>
-
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Cubism</p>
-    </div>
-
-    <div class="tl-content">
-      <h1>The Ladies of Avignon</h1>
-      <p>Raphael, 1509–1511</p>
-      <div class="label" #label>
-        <app-play-button [appPlayPopup]="play3" [label]="label"></app-play-button>
-      </div>
-      <ng-template #play3>
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play8" [periodId]="8"></app-play-button>
+      <ng-template #play8>
         <app-play [paintingNumber] = 8>
-
         </app-play>
       </ng-template>
     </div>
-  </div>
 
-  <div class="tl-item">
-
-    <div class="tl-bg" style="background-image: url(https://github.com/yujenyu/Group11_Project/raw/master/game_material/original_image/The_Persistence_of_Memory.jpg)"></div>
-
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Dadaism <br> and <br> Surrealism</p>
-    </div>
-
-    <div class="tl-content">
-      <h1>The Persistence of Memory</h1>
-      <p>Raphael, 1509–1511</p>
-      <div class="label" #label>
-        <app-play-button [appPlayPopup]="play4" [label]="label"></app-play-button>
-      </div>
-      <ng-template #play4>
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play9" [periodId]="9"></app-play-button>
+      <ng-template #play9>
         <app-play [paintingNumber] = 9>
-
         </app-play>
       </ng-template>
     </div>
-  </div>
 
-  <div class="tl-item">
-
-    <div class="tl-bg" style="background-image: url(https://github.com/yujenyu/Group11_Project/raw/master/game_material/original_image/New%20York%20City%20I.jpg)"></div>
-
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Abstract <br> Expressionism</p>
-    </div>
-
-    <div class="tl-content">
-      <h1>New York City I</h1>
-      <p>Raphael, 1509–1511</p>
-      <div class="label" #label>
-        <app-play-button [appPlayPopup]="play5" [label]="label"></app-play-button>
-      </div>
-      <ng-template #play5>
+    <div class="card-grid-space">
+      <app-play-button [appPlayPopup]="play10" [periodId]="10"></app-play-button>
+      <ng-template #play10>
         <app-play [paintingNumber] = 10>
-
         </app-play>
       </ng-template>
     </div>
-  </div>
 
-</section>
+  </section>
+</body>
+
