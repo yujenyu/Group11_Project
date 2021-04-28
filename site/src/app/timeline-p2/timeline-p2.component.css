@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.75;
   }
-  
+
   #timeline-p2 {
     display: flex;
     background-color: #031625;
@@ -11,7 +11,7 @@ body {
   #timeline-p2:hover .tl-item {
     width: 23.3333%;
   }
-  
+
   .tl-item {
     transform: translate3d(0, 0, 0);
     position: relative;
@@ -62,7 +62,7 @@ body {
   .tl-item:hover .tl-bg {
     filter: grayscale(0);
   }
-  
+
   .tl-content {
     transform: translate3d(0, 0, 0) translateY(25px);
     position: relative;
@@ -87,7 +87,7 @@ body {
     font-size: 1.25rem;
     font-weight: normal;
   }
-  
+
   .tl-year {
     position: absolute;
     top: 25%;
@@ -102,7 +102,7 @@ body {
     font-size: 1.728rem;
     line-height: 1;
   }
-  
+
   .tl-bg {
     transform: translate3d(0, 0, 0);
     position: absolute;
@@ -114,4 +114,101 @@ body {
     background-position: center center;
     transition: filter 0.5s ease;
     filter: grayscale(100%);
+  }
+
+  /* ----- Photo Section ----- */
+  .product__photo {
+    position: relative;
+  }
+
+  .photo-container {
+    position: absolute;
+    left: 0em;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+  }
+
+  .photo-main img {
+    position: absolute;
+    left: -3.5em;
+    top: 2em;
+    max-width: 110%;
+    filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
+  }
+
+    /* ----- Informations Section ----- */
+  .product__info {
+    padding: 0.8em 0;
+  }
+
+  .title h1 {
+    position: fixed;
+    left: 400;
+    top: -10;
+    margin-bottom: 0.1em;
+    color: #4c4c4c;
+    font-size: 3em;
+    font-weight: 900;
+  }
+  .title span {
+    position: fixed;
+    left: 400;
+    top: 100;
+    font-size: 1.2em;
+    color: #a6a6a6;
+  }
+
+  .description {
+    position: fixed;
+    left: 400;
+    top: 100;
+    clear: left;
+    margin: 2em 15 0 0;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    line-height: 1.3;
+  }
+  .description h3 {
+    position: fixed;
+    left: 400;
+    top: 290;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #4c4c4c;
+  }
+  .description ul {
+    font-size: 1em;
+    list-style: disc;
+    margin-left: 1em;
+  }
+
+  .description li {
+    font-size: 1em;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-indent: -0.3em;
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+  }
+
+  .description li li {
+    font-size: 0.9em;
+    position: relative;
+    left: -30;
+    top: 0;
+    text-indent: -0.3em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+  }
+
+  .list {
+    position: fixed;
+    left: 375;
+    top: 350;
+    width: auto;
+    height: auto;
   }
