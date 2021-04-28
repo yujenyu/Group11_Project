@@ -1,173 +1,106 @@
-  body {
-    font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.75;
-  }
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
-  #artDetective-p1 {
-    display: flex;
-    background-color: #031625;
-  }
-  #artDetective-p1:hover .tl-item {
-    width: 23.3333%;
-  }
-
-  .tl-item {
-    transform: translate3d(0, 0, 0);
-    position: relative;
-    width: 25%;
-    height: 100vh;
-    min-height: 600px;
-    color: #fff;
-    overflow: hidden;
-    transition: width 0.5s ease;
-  }
-  .tl-item:before, .tl-item:after {
-    transform: translate3d(0, 0, 0);
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .tl-item:after {
-    background: rgba(3, 22, 37, 0.85);
-    opacity: 1;
-    transition: opacity 0.5s ease;
-  }
-  .tl-item:before {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 75%);
-    z-index: 1;
-    opacity: 0;
-    transform: translate3d(0, 0, 0) translateY(50%);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  .tl-item:hover {
-    width: 30% !important;
-  }
-  .tl-item:hover:after {
-    opacity: 0;
-  }
-  .tl-item:hover:before {
-    opacity: 1;
-    transform: translate3d(0, 0, 0) translateY(0);
-    transition: opacity 1s ease, transform 1s ease 0.25s;
-  }
-  .tl-item:hover .tl-content {
-    opacity: 1;
-    transform: translateY(0);
-    transition: all 0.75s ease 0.5s;
-  }
-  .tl-item:hover .tl-bg {
-    filter: grayscale(0);
-  }
-
-  .tl-content {
-    transform: translate3d(0, 0, 0) translateY(25px);
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    margin: 0 1.2em;
-    top: 35%;
-    opacity: 0;
-  }
-
-  .tl-content h1 {
-    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-
-  .tl-content p {
-    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: normal;
-  }
-
-  .tl-year {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 1;
-    border-top: 2px solid #fff;
-    border-bottom: 5px solid #fff;
-  }
-  .tl-year p {
-    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 1.728rem;
-    line-height: 1;
-  }
-
-  .tl-bg {
-    transform: translate3d(0, 0, 0);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center center;
-    transition: filter 0.5s ease;
-    filter: grayscale(100%);
-  }
-
-/* ----- Photo Section ----- */
-.product__photo {
+article {
+  display: flex;
+  height: 100%;
   position: relative;
+  background: #fff;
+  box-shadow: 0 0 50px -10px #9a7289;
 }
 
-.photo-container {
-  position: absolute;
-  left: -2.5em;
-  display: grid;
-  grid-template-rows: 1fr;
+aside {
+  width: 35%;
+  background-color: #ccc;
+}
+aside img {
   width: 100%;
   height: 100%;
-  border-radius: 6px;
+  display: block;
 }
 
-.photo-main img {
+section {
+  width: 70%;
+  overflow: hidden;
+  padding: 2% 5% 0;
+  position: relative;
+}
+section:before {
   position: absolute;
-  left: -3.5em;
-  top: 2em;
-  max-width: 110%;
-  filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
+  right: 0;
+  width: 5%;
+  top: 0;
+  height: 100%;
+  background: red;
 }
 
-  /* ----- Informations Section ----- */
-.product__info {
-  padding: 0.8em 0;
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
 }
 
-.title h1 {
-  margin-bottom: 0.1em;
-  color: #4c4c4c;
-  font-size: 1.5em;
-  font-weight: 900;
-}
-.title span {
-  font-size: 0.7em;
-  color: #a6a6a6;
+h1 {
+  font-size: 6vw;
+  margin: 0 0 2vw 0;
 }
 
-.description {
-  clear: left;
-  margin: 2em 0;
+h2 {
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 0 1vw 0;
 }
-.description h3 {
-  margin-bottom: 1em;
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
 }
-.description ul {
-  font-size: 0.8em;
-  list-style: disc;
-  margin-left: 1em;
+
+@keyframes move {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(-1250px, 0px, 0px);
+  }
 }
-.description li {
-  text-indent: -0.6em;
-  margin-bottom: 0.5em;
+.teaser {
+  display: flex;
+  margin: 0 0 3vw 0;
+  animation: move 20s forwards linear;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+.teaser figure {
+  overflow: hidden;
+  margin: 0;
+  width: 250px;
+  min-width: 250px;
+  padding: 0 30px 0 0;
+  position: relative;
+}
+.teaser img {
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+}
+.teaser figcaption {
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  font-size: 20px;
+  color: #000;
+  mix-blend-mode: screen;
+}
+.teaser figcaption h3 {
+  margin: 0;
+  padding: 3px 5px;
+  width: 100%;
+}
+
+button {
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  font-size: 24px;
+  cursor: pointer;
 }
