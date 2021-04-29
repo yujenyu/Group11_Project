@@ -279,3 +279,25 @@ Apply new template for game page, not to change the size of game's painting.
 #### Next steps
 
 Incorporate the menu and game interface, try to help Masa for back end.
+
+
+
+### Week 12 (29/04/21, 10:15 - 11:15)
+
+#### Meeting Objective
+
+Merge branch into Dev, Database, and back end.
+
+#### Agenda
+
+Develop back end and game page.
+
+#### Notes & decisions
+
+Update the menu bar, make an ABOUT page, and implement back end for artDetective.
+
+Meeting with Allison, got some feedback to follow.
+
+#### Next steps
+
+Focus on developing back end. Implement document on Github.
