@@ -433,6 +433,9 @@ display: flex;
 align-items: center;
 max-width: 500px;
 margin: auto;
+font-size: 1em;
+/* letter-spacing: 2em;
+line-height: 5em; */
 }
 
 .concept-three .hover {
@@ -465,7 +468,6 @@ top: 10%;
 margin-top: -30px;
 transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 z-index: 0;
-letter-spacing: 5em;
 }
 
 h1 {
