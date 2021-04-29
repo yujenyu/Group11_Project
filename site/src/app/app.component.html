@@ -1,14 +1,27 @@
 <ul id="menu">
-	<li data-menuanchor="welcome"><a href="#welcome">Welcome</a></li>
-	<li data-menuanchor="timeline"><a href="#timeline">Timeline</a></li>
-	<li data-menuanchor="funfacts"><a href="#funfacts">Fun Facts</a></li>
-	<li data-menuanchor="artdetective"><a href="#artdetective">Art Detective</a></li>
+    <input type='checkbox' id='toggle' style='display:none;'/>
+    <label class='toggle-btn toggle-btn__cross' for='toggle'>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </label>
+    <nav>
+      <ul>
+        <label class='select' for='toggle'>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#funfacts">Fun facts</a></li>
+          <li><a href="#artdetective">Art Detective</a></li>
+          <li><a href="#">About</a></li>
+        </label>
+      </ul>
+    </nav>
 </ul>
 
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)" #fullpageRef>
-	<div class="section">
-		<app-frontpage></app-frontpage>
-	</div>
+  <div class="section">
+    <app-frontpage></app-frontpage>
+  </div>
 	<div class="section">
 		<div class="slide"><app-timeline-p1></app-timeline-p1></div>
 		<div class="slide"><app-timeline-p2></app-timeline-p2></div>
