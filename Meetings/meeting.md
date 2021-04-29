@@ -1,98 +1,96 @@
-# Meetings
+# Meeting Record
 
-## Meeting Record
+## Week 1 (09/02/21, 13:30 - 14:15)
 
-### Week 1 (09/02/21, 13:30 - 14:15)
-
-#### Meeting Objective
+### Meeting Objective
 
 First meeting.
 
-#### Notes & decisions
+### Notes & decisions
 
 Introduce ourselves, create the repo.
 
-#### Next steps
+####Next steps
 
 Think about the topic and game generes.
 
 
 
-### Week 1 (11/02/21, 09:00 - 10:30)
+## Week 1 (11/02/21, 09:00 - 10:30)
 
-#### Meeting Objective
+### Meeting Objective
 
 Project outline, timeline, and proposal.
 
-#### Notes & decisions
+### Notes & decisions
 
 Discuss the topic and game generes of project.
 
 Create a prototype of the project.
 
-#### Next steps
+### Next steps
 
 Combine the ideas for prototype.
 
 
 
-### Week 3 (22/02/21, 11:00 - 13:00)
+## Week 3 (22/02/21, 11:00 - 13:00)
 
-#### Meeting Objective
+### Meeting Objective
 
 Project ideas.
 
-#### Agenda
+### Agenda
 
 Present the idea of the project and discuss.
 
-#### Notes & decisions
+### Notes & decisions
 
 Vote and decide the idea.
 
 Topic: "ART history education for children".
 
-#### Next steps
+### Next steps
 
 Do the research for art history before next meeting.
 
 
 
-### Week 3 (25/02/21, 11:00 - 12:00)
+## Week 3 (25/02/21, 11:00 - 12:00)
 
-#### Meeting Objective
+### Meeting Objective
 
 Skeleton of art history.
 
-#### Agenda
+### Agenda
 
 Overview the timeline of art history.
 
-#### Notes & decisions
+### Notes & decisions
 
 Talk about details of each period, and decide to focus on which period.
 
-#### Next steps
+### Next steps
 
 Teamworks for timeline of art history.
 
 
 
-### Week 4 (04/03/21, 11:00 - 13:30)
+## Week 4 (04/03/21, 11:00 - 13:30)
 
-#### Meeting Objective
+### Meeting Objective
 
 Paper prototyping.
 
 Type of games, principles for critical thinking.
 
-#### Notes & decisions
+### Notes & decisions
 
 Vote for type of games, and period of art history.
 
 Assign the works for each team member.
 
-#### Next steps
+### Next steps
 
 Do research and focus on the period which be responsible for.
 
@@ -100,55 +98,55 @@ Push on Github before next meeting.
 
 
 
-### Week 5 (09/03/21, 13:00 - 13:30)
+## Week 5 (09/03/21, 13:00 - 13:30)
 
-#### Meeting Objective
+### Meeting Objective
 
 Design thinking, Schema.
 
-#### Notes & decisions
+### Notes & decisions
 
 Create scope.md.
 
-#### Next steps
+### Next steps
 
 Collect materials for quiz and find difference.
 
 
 
-### Week 5 (11/03/21, 10:30 - 11:15)
+## Week 5 (11/03/21, 10:30 - 11:15)
 
-#### Meeting Objective
+### Meeting Objective
 
 Documentation
 
-#### Agenda
+### Agenda
 
 Create a skeleton project report.
 
 Turn paper prototype into a wireframe.
 
-#### Notes & decisions
+### Notes & decisions
 
 Remove "Futurism" and "Pop Art" from timeline.
 
-#### Next steps
+### Next steps
 
 Concentrate on the interaction flow around the system.
 
 
 
-### Week 6 (18/03/21, 11:00 - 12:15)
+## Week 6 (18/03/21, 11:00 - 12:15)
 
-#### Meeting Objective
+### Meeting Objective
 
 Set up everything before feedback meeting
 
-#### Notes & decisions
+### Notes & decisions
 
 Finish and discuss prototyping.
 
-#### Next steps
+### Next steps
 
 Photoshop the painting for "Art Detective",
 
@@ -156,41 +154,41 @@ do descriptions and questions for "Fun Facts".
 
 
 
-### Week 7 (23/03/21, 13:00 - 13:45)
+## Week 7 (23/03/21, 13:00 - 13:45)
 
-#### Meeting Objective
+### Meeting Objective
 
 Project prototyping.
 
 Video of prototyping by Lauren.
 
-#### Agenda
+### Agenda
 
 Give the feedback of the video
 
-#### Notes & decisions
+### Notes & decisions
 
 Discuss about the game type and how to implement it.
 
 Two type of game: "Fun facts", "Art Detective".
 
-#### Next steps
+### Next steps
 
 Modify the prototype and implement skeleton of the game.
 
 
 
-### Week 7 (25/03/21, 10:15 - 11:10)
+## Week 7 (25/03/21, 10:15 - 11:10)
 
-#### Meeting Objective
+### Meeting Objective
 
 User's feedback and documentation.
 
-#### Agenda
+### Agenda
 
 Create a survey for user to have feedback.
 
-#### Notes & decisions
+### Notes & decisions
 
 1. Find some user's advice
 
@@ -198,110 +196,153 @@ Create a survey for user to have feedback.
 
 3. Document process
 
-#### Next steps
+### Next steps
 
 Get the feedback from users, modify our page from their advices.
 
 
 
-### Week 8 (03/04/21, 13:00 - 14:20)
+## Week 8 (03/04/21, 13:00 - 14:20)
 
-#### Meeting Objective
+### Meeting Objective
 
-#### Agenda
+Scoping our project.
 
-#### Notes & decisions
+### Agenda
 
-#### Next steps
+1. Basic front page
 
+2. Generate quiz information
 
+3. Introduction page on GitHub
 
-### Week 9 (07/04/21, 14:00 - 15:10)
+### Notes & decisions
 
-#### Meeting Objective
+Assign the works for each team member, divide into four parts.
 
-#### Agenda
+Welcome page, Timeline, Fun Facts, Art Detective.
 
-#### Notes & decisions
+### Next steps
 
-#### Next steps
-
-
-
-### Week 10 (12/04/21, 14:00 - 16:00)
-
-#### Meeting Objective
-
-#### Agenda
-
-#### Notes & decisions
-
-#### Next steps
+Implement basic front page of each part.
 
 
 
-### Week 11 (20/04/21, 14:00 - 15:00)
+## Week 9 (07/04/21, 14:00 - 15:10)
 
-#### Meeting Objective
+### Meeting Objective
 
-#### Agenda
+Set up environment, skeleton of the web.
 
-#### Notes & decisions
+### Notes & decisions
 
-#### Next steps
+Fix the bugs, design the style of front page.
 
+### Next steps
 
-
-### Week 11 (22/04/21, 10:00 - 11:45)
-
-#### Meeting Objective
-
-#### Agenda
-
-#### Notes & decisions
-
-#### Next steps
+Share ideas and discuss on HACKMD.
 
 
 
-### Week 11 (22/04/21, 15:00 - 16:00)
+## Week 10 (12/04/21, 14:00 - 16:00)
 
-#### Meeting Objective
+### Meeting Objective
 
-#### Agenda
+Game pages.
 
-#### Notes & decisions
+### Agenda
 
-#### Next steps
+Implement skeleton of game pages.
 
+### Notes & decisions
 
+Fun Facts: ten topic of painting, each topic has four questions.
 
-### Week 11 (24/04/21, 10:00 - 10:30)
+Art Detective: Circle the important parts of painting, when user correct
+the difference, descriptions will pop up under the painting.
 
-#### Meeting Objective
+### Next steps
 
-#### Agenda
-
-#### Notes & decisions
-
-#### Next steps
-
+Implement basic version of game page before next meeting.
 
 
-### Week 12 (27/04/21, 14:00 - 15:00)
 
-#### Meeting Objective
+## Week 11 (20/04/21, 14:00 - 15:00)
+
+### Meeting Objective
+
+Help each other, documentation on GITHUB.
+
+### Agenda
+
+Bug fix.
+
+### Notes & decisions
+
+Optimize the game pages and timeline page.
+
+### Next steps
+
+Create difference branch for each page.
+
+
+
+## Week 11 (22/04/21, 10:00 - 11:45)
+
+### Meeting Objective
+
+Sprint, database.
+
+### Agenda
+
+Organize a sprint in couple days.
+
+### Notes & decisions
+
+Discuss which part should implement with database.
+
+### Next steps
+
+Work together and help each other.
+
+
+
+## Week 12 (27/04/21, 14:00 - 15:00)
+
+### Meeting Objective
 
 Discuss issues and bugs.
 
-#### Agenda
+### Agenda
 
 Fix the bugs and redesign the game page.
 
-#### Notes & decisions
+### Notes & decisions
 
 Apply new template for game page, not to change the size of game's painting.
 
-#### Next steps
+### Next steps
 
 Incorporate the menu and game interface, try to help Masa for back end.
+
+
+
+## Week 12 (29/04/21, 10:15 - 11:15)
+
+### Meeting Objective
+
+Merge branch into Dev, Database, and back end.
+
+### Agenda
+
+Develop back end and game page.
+
+### Notes & decisions
+
+Update the menu bar, make an ABOUT page, and implement back end for artDetective.
+
+Meeting with Allison, got some feedback to follow.
+
+### Next steps
+
+Focus on developing back end. Implement document on Github.
