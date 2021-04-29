@@ -10,7 +10,7 @@ First meeting.
 
 Introduce ourselves, create the repo.
 
-####Next steps
+### Next steps
 
 Think about the topic and game generes.
 
