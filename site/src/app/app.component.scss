@@ -27,7 +27,7 @@ body {
     position:fixed;
     top:0;
     left:0;
-    width:100%;
+    width:30%;
     height:100%;
     opacity:0;
     visibility:hidden;
@@ -49,8 +49,8 @@ body {
 
         a {
           display:block;
-          font-size:3em;
-          line-height: 2.3em;
+          font-size:2em;
+          line-height: 3em;
           text-decoration:none;
           padding:10px 0;
           text-align:center;
@@ -133,4 +133,3 @@ body {
     }
   }
 }
-
