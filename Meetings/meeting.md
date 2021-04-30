@@ -8,7 +8,7 @@ First meeting.
 
 ### Notes & decisions
 
-Introduce ourselves, create the repo.
+Introduce ourselves, create the group GitHub repo.
 
 ### Next steps
 
@@ -86,10 +86,14 @@ Type of games, principles for critical thinking.
 
 ### Notes & decisions
 
-Vote for type of games, and period of art history.
+Vote for type of games, and period of art history. We used [this file]() as reference for dfferent periods in the art history.
 
-Assign the works for each team member.
-
+Assign the works for each team member:
+- Lauren: Renaissance, Baroque, Romanticism
+- Zhengwu: Impressionism, Post-Impressionism, Abstract Expressionism
+- Masashi: Post-Impressionism, Cubism, Expressionism
+- Chun-Yu: Futurism, Dadaaism, Surrealism
+- Yu-Jen: Fauvism, Impressionism, Pop Art
 ### Next steps
 
 Do research and focus on the period which be responsible for.
