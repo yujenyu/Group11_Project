@@ -86,7 +86,7 @@ Type of games, principles for critical thinking.
 
 ### Notes & decisions
 
-Vote for type of games, and period of art history. We used [this file]() as reference for dfferent periods in the art history.
+Vote for type of games, and period of art history. We used [this file](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/23.1TimelineOfWesternArtHistory.pdf) as reference for dfferent periods in the art history.
 
 Assign the works for each team member:
 - Lauren: Renaissance, Baroque, Romanticism
@@ -94,6 +94,7 @@ Assign the works for each team member:
 - Masashi: Post-Impressionism, Cubism, Expressionism
 - Chun-Yu: Futurism, Dadaaism, Surrealism
 - Yu-Jen: Fauvism, Impressionism, Pop Art
+
 ### Next steps
 
 Do research and focus on the period which be responsible for.
@@ -110,7 +111,15 @@ Design thinking, Schema.
 
 ### Notes & decisions
 
-Create scope.md.
+We create [scope.md](https://github.com/yujenyu/Group11_Project/blob/master/scope.md) for sharing our studies on different periods in the art history. Scope.md file will also be a material for the timeline in our application. To achieve educational purpose of our application, we want our users can develop different levels of critical thinking through the games. By learning through art history, we hope users can have following levels of critical thinking:
+- Remembering
+- Understanding
+- Applying
+- Analyzing
+- Evaluting
+- Creating
+
+[Reference]() of levels of critical thinking through art history activities.
 
 ### Next steps
 
