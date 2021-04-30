@@ -104,13 +104,15 @@ Push on Github before next meeting.
 
 #### Meeting Objective
 
-Design thinking, Schema
-
-#### Agenda
+Design thinking, Schema.
 
 #### Notes & decisions
 
+Create scope.md.
+
 #### Next steps
+
+Collect materials for quiz and find difference.
 
 
 
@@ -118,11 +120,21 @@ Design thinking, Schema
 
 #### Meeting Objective
 
+Documentation
+
 #### Agenda
+
+Create a skeleton project report.
+
+Turn paper prototype into a wireframe.
 
 #### Notes & decisions
 
+Remove "Futurism" and "Pop Art" from timeline.
+
 #### Next steps
+
+Concentrate on the interaction flow around the system.
 
 
 
@@ -132,13 +144,15 @@ Design thinking, Schema
 
 Set up everything before feedback meeting
 
-#### Agenda
-
-Turn paper prototype into a wireframe
-
 #### Notes & decisions
 
+Finish and discuss prototyping.
+
 #### Next steps
+
+Photoshop the painting for "Art Detective",
+
+do descriptions and questions for "Fun Facts".
 
 
 
@@ -170,11 +184,23 @@ Modify the prototype and implement skeleton of the game.
 
 #### Meeting Objective
 
+User's feedback and documentation.
+
 #### Agenda
+
+Create a survey for user to have feedback.
 
 #### Notes & decisions
 
+1. Find some user's advice
+
+2. Data model
+
+3. Document process
+
 #### Next steps
+
+Get the feedback from users, modify our page from their advices.
 
 
 

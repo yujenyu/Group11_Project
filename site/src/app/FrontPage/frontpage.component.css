@@ -334,8 +334,8 @@
 	#header h1 {
 		font-size: 4.35em;
 		font-weight: 900;
-		letter-spacing: 0.25em;
-		line-height: 0.8em;
+		letter-spacing: 0.35em;
+		line-height: 1em;
 	}
 
 	#header p {
@@ -353,7 +353,7 @@
 	/* Basic */
 
 		body, input, select, textarea {
-			font-size: 12pt;
+			font-size: 10pt;
 		}
 
 	/* BG */
@@ -431,7 +431,7 @@
 .concept-three .word {
 display: flex;
 align-items: center;
-max-width: 500px;
+max-width: 400px;
 margin: auto;
 }
 
@@ -461,7 +461,7 @@ position: absolute;
 margin: auto;
 left: 0;
 right: 0;
-top: 10%;
+top: 7%;
 margin-top: -30px;
 transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 z-index: 0;
@@ -471,6 +471,6 @@ letter-spacing: 5em;
 h1 {
 	position: relative;
 	color: #fff;
-	font: 900 60px Montserrat;
+	font: 900 60px Helvetica;
 	text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
