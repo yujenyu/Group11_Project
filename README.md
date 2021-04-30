@@ -25,10 +25,13 @@ Lauren(Ya-Shiuan) Chian: <da20602@bristol.ac.uk>
 
 
 ## Prototyping
+
+↓ click the photo below to watch video ↓
 [![Video Link](game_material/pic2.png)](https://www.youtube.com/watch?v=anribnNDmAQ)
 
 
 ## Survey
+
 We are collecting feedback from users now:
 https://forms.gle/NnpbMXd8be3JNk9c6
 
