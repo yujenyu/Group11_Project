@@ -119,7 +119,9 @@ We create [scope.md](https://github.com/yujenyu/Group11_Project/blob/master/scop
 - Evaluting
 - Creating
 
-[Reference]() of levels of critical thinking through art history activities.
+[Reference](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/16.1CriticalThinkingThruArtHistActivities.pdf) of levels of critical thinking through art history activities.
+
+We have decided to design two games - quiz and spot differences. For quizz, users can challenge themselves by answering interesting questions about the artists and masterpieces from different periods in art history. For spot differences, users will try to find a differences between the original and modified versions of the paintings. Each difference between the painting has a significant meaning for the work itself. User will learn how to look and analyse paintings by playing this game.
 
 ### Next steps
 
