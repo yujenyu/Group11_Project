@@ -9,30 +9,14 @@
   box-sizing: border-box;
 }
 
-.cards-wrapper {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  padding: 2rem;
-  margin: auto auto;
-  width: max-content;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .card {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), var(--bg-img);
-  height: 16em;
-  width: 14em;
+  height: 50%;
+  width: 100%;
   font-size: 0.3em;
   color: white;
   border-radius: 1em;
   padding: 0.6em;
-  /*margin: 2em;*/
   display: flex;
   align-items: flex-end;
   background-size: cover;
@@ -51,14 +35,14 @@
 
 .card h1 {
   margin: 0;
-  font-size: 1.5em;
-  line-height: 1.2em;
+  font-size: 4em;
+  line-height: 1.5em;
   text-align: left;
 }
 
 .card p {
-  font-size: 0.75em;
-  margin-top: 0.5em;
+  font-size: 1em;
+  margin-top: 0.75em;
   line-height: 2em;
 }
 

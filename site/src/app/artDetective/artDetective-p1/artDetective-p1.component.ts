@@ -20,12 +20,6 @@ export class ArtDetectiveP1Component {
       sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke'],
 
       // fullpage callbacks
-      afterResize: () => {
-        console.log('After resize');
-      },
-      afterLoad: (origin, destination, direction) => {
-        console.log(origin.index);
-      }
     };
   }
 
