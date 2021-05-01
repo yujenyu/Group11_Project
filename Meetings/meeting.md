@@ -8,7 +8,7 @@ First meeting.
 
 ### Notes & decisions
 
-Introduce ourselves, create the repo.
+Introduce ourselves, create the group GitHub repo.
 
 ### Next steps
 
@@ -86,9 +86,14 @@ Type of games, principles for critical thinking.
 
 ### Notes & decisions
 
-Vote for type of games, and period of art history.
+Vote for type of games, and period of art history. We used [this file](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/23.1TimelineOfWesternArtHistory.pdf) as reference for dfferent periods in the art history.
 
-Assign the works for each team member.
+Assign the works for each team member:
+- Lauren: Renaissance, Baroque, Romanticism
+- Zhengwu: Impressionism, Post-Impressionism, Abstract Expressionism
+- Masashi: Post-Impressionism, Cubism, Expressionism
+- Chun-Yu: Futurism, Dadaaism, Surrealism
+- Yu-Jen: Fauvism, Impressionism, Pop Art
 
 ### Next steps
 
@@ -106,7 +111,17 @@ Design thinking, Schema.
 
 ### Notes & decisions
 
-Create scope.md.
+We create [scope.md](https://github.com/yujenyu/Group11_Project/blob/master/scope.md) for sharing our studies on different periods in the art history. Scope.md file will also be a material for the timeline in our application. To achieve educational purpose of our application, we want our users can develop different levels of critical thinking through the games. By learning through art history, we hope users can have following levels of critical thinking:
+- Remembering
+- Understanding
+- Applying
+- Analyzing
+- Evaluting
+- Creating
+
+[Reference](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/16.1CriticalThinkingThruArtHistActivities.pdf) of levels of critical thinking through art history activities.
+
+We have decided to design two games - quiz and spot differences. For quizz, users can challenge themselves by answering interesting questions about the artists and masterpieces from different periods in art history. For spot differences, users will try to find a differences between the original and modified versions of the paintings. Each difference between the painting has a significant meaning for the work itself. User will learn how to look and analyse paintings by playing this game.
 
 ### Next steps
 
