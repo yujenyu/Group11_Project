@@ -8,72 +8,78 @@
     <body>
       <div class="wrapper">
         <div class="masterpiece">
-          <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Matissedance.jpg" style="height:100%">
+          <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Matissedance.jpg" style="width:50vw">
         </div>
-
-        <p style="font-size:2.5vh"><br>La danse</p>
-        <p1 style="font-size:2vh">Henri Matisse<br>1909<br></p1>
-
+        <p style="font-size:1.2vw">La danse<br></p>
+        <p1 style="font-size:0.9vw">Henri Matisse<br>1909<br><br></p1>
      <div class="label" #label>
       <app-Quiz-button [appQuizPopup]="Quiz" [label]="label"></app-Quiz-button>
      </div>
 
-    <ng-template #Quiz>
-      <app-Quiz>
-        <div class="product__Quiz">
-          <div class="title">
-            <h1>1. Why people in this painting naked without genitalia?</h1>
-          </div>
-          <div class="description">
-            <p>When Shchukin commissioned Matisse to paint this work, he asked for the dancers to be dressed. Matisse’s choice to depict them in the nude proved to be scandalous when he exhibited it at the Autumn Salon in Paris. Some even went as far as accusing him of having a mental illness. This situation strained their artist/patron relationship. Eventually the two reached an agreement saying that the dancers could be depicted naked but that no genitalia would be explicitly illustrated.
-            </p>
-          </div>
-        </div>
-      </app-Quiz>
-    </ng-template>
 
-    <ng-template #Quiz2>
-      <app-Quiz>
-        <div class="product__Quiz">
-          <div class="title">
-            <h1>2. What kind of flower is the flower in the painting?</h1>
-          </div>
-          <div class="description">
-            <p>Next to Venus are roses. Because roses are symbols of love and beauty, they are usually painted around Venus. When Venus steps on the ground, roses will grow wherever she walks. Also, because it was spring, Botticelli painted cornflowers. The patterns on the goddess Trois Graces's robe is the evergreen crape myrte flowers, which symbolize eternal life.
-            </p>
-          </div>
+     <ng-template #Quiz>
+       <app-Quiz>
+         <div class="product__Quiz">
+     <div class="menu">
+         <ui class="mainMenu">
+             <li class="item" id="account">
+                 <a href="#account" class="btn">
+                   <div class="title">
+                   <p1>1. Why people in this painting naked without genitalia?</p1>
+                 </div>
+                 </a>
+                 <div class="subMenu">
+                  <a href=""><div class="description">
+                    <p>When Shchukin commissioned Matisse to paint this work, he asked for the dancers to be dressed. Matisse’s choice to depict them in the nude proved to be scandalous when he exhibited it at the Autumn Salon in Paris. Some even went as far as accusing him of having a mental illness. This situation strained their artist/patron relationship. Eventually the two reached an agreement saying that the dancers could be depicted naked but that no genitalia would be explicitly illustrated.
+                    </p>
+                  </div></a>
+                 </div>
+             </li>
+             <li class="item" id="about">
+                 <a href="#about" class="btn">
+                   <div class="title">
+                   <p1>2. Do you agree that this artwork is rhythmic?</p1>
+                 </div>
+                </a>
+                 <div class="subMenu">
+                   <a href=""><div class="description">
+                     <p>The massive painting measures 230 by 391 centimetres. However, even in these dimensions, the framework is too narrow for the size of the figures. In order for them to fully fit into the frame, Matisse had to put an arch in some of their backs. Thus, the viewer’s gaze is drawn in by their circular characteristics: the figures on top are folded, in the act of arching their backs, while those on the bottom are extended. Their curves dominate the composition and by joining hands, their circular shape gives the painting a feeling of movement and motion.
+                     </p>
+                   </div></a>
+                 </div>
+             </li>
+             <li class="item" id="support">
+                 <a href="#support" class="btn">
+                   <div class="title">
+                   <p1>3. Do Matisse prefer to use of symbolism in art?</p1>
+                 </div>
+                </a>
+                 <div class="subMenu">
+                   <a href=""><div class="description">
+                     <p>Yes, Matisse created his painting during a period of artistic maturity. At the time of its execution, he was reaching the height of his use of symbolism in art. His compositions became more refined as the colours become more balanced. The Dance was commissioned by the famous Russian collector, Sergei Shchukin. He asked for Matisse to create two paintings to hang in his home in Moscow. It was decided that the three underlying themes would be action, passion and contemplation.</p>
+                   </div></a>
+                 </div>
+             </li>
+             <li class="item" id="logout">
+                 <a href="#logout" class="btn">
+                   <div class="title">
+                   <p1>4. How do you describe of five figures in the painting?</p1>
+                 </div>
+                </a>
+                 <div class="subMenu">
+                   <a href=""><div class="description">
+                     <p>The individuals are entirely lost in their dance, oblivious to any daily obligations and work. Matisse does not focus on the dancers’ individual appearance, but rather on the movement and rhythm they create together. The dance is the ultimate symbol of the reconciliation of individuals. The five figures are holding hands in a circle, but on the left, we can notice that the two individuals’ hands are parted; they only slightly brush instead of holding. However, Matisse carefully placed the rupture where it overlaps the other figure’s leg as not to break the colours and circle’s harmony. The rupture’s point being closest to the viewer’s position, it can be interpreted as an invitation to join in the dance. The circle comes to find those that “are outside,” and thus unify individuals.
+                     </p>
+                   </div></a>
+                 </div>
+             </li>
+           </ui>
         </div>
-      </app-Quiz>
-    </ng-template>
-
-    <ng-template #Quiz3>
-      <app-Quiz>
-        <div class="product__Quiz">
-          <div class="title">
-            <h1>3. Why are there almost no shadows in the painting?</h1>
-          </div>
-          <div class="description">
-            <p>In order to express Venus's beauty, which is beyond ordinary people, bright and soft colours were used throughout the painting. Her complexion reminds people of pearls, and the whole person is radiant. This painting allows people to see that her radiance has changed the world. Although the right side of the painting is darker, it looks like Venus has driven the darkness away.
-            </p>
-          </div>
-        </div>
-      </app-Quiz>
-    </ng-template>
+      </div>
+    </app-Quiz>
+   </ng-template>
 
 
-    <ng-template #Quiz4>
-      <app-Quiz>
-        <div class="product__Quiz">
-          <div class="title">
-            <h1>4. Why do the people in the painting seem to be "attached" to the background?</h1>
-          </div>
-          <div class="description">
-            <p>This is because Botticelli deliberately emphasized the characters' outline, which makes people feel as if they can be cut along the contour. The body drawn with meticulous lines is like a prison that seals the soul. This concept comes from the Medici family's close Neo-Platonists, which were very popular in Florence in the fifteenth century. Botticelli often stayed with these philosophers and was deeply influenced by their thoughts.
-            </p>
-          </div>
-        </div>
-      </app-Quiz>
-    </ng-template>
 
     </div>
     </body>
