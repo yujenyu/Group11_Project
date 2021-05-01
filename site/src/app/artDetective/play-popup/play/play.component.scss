@@ -1,7 +1,7 @@
 .gameScene {
   display: block;
   grid-template-columns: 0.9fr 1fr;
-  background: rgba(3, 22, 37, 0.9);
+  background: rgba(3, 22, 37, 0.95);
   margin: auto;
   width: 1286px;
   height: 700px;
@@ -32,21 +32,25 @@ h2 {
   font-style: inherit;
 }
 
+p::before {
+  width: 800px;
+  vertical-align: middle;
+}
+
 p {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   font-style: inherit;
-  height: 20px;
   width: 800px;
-  vertical-align:middle;
-  line-height:20px;
-  position: fixed;
-  left: 200px;
+  line-height: 20px;
+  text-align: center;
+  margin: auto;
 }
 
 canvas {
   width: 1280px;
-  height: 500px;
+  height: 450px;
+  cursor: zoom-in;
 }
 

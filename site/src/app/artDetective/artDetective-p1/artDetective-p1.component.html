@@ -1,70 +1,78 @@
 <article>
   <aside>
-    <img alt='' src='https://i.ibb.co/mzKpzWn/2021-04-26-212605.jpg'>
+    <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/Girl_with_a_Mandolin.jpg'>
   </aside>
   <section>
     <h1>Art Detective</h1>
+
     <div class='teaser'>
+
       <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sandro_Botticelli_083.jpg/800px-Sandro_Botticelli_083.jpg'>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/The_school_of_athens.jpg'>
         <figcaption>
-          <h3>Sandro Botticelli</h3>
+          <h3>Raphael</h3>
         </figcaption>
       </figure>
+
       <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg'>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/Liberty_leading_the_people.jpg'>
         <figcaption>
-          <h3>The Birth of Venus</h3>
+          <h3>Eugène Delacroix</h3>
         </figcaption>
       </figure>
+
       <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg'>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/Olympia.jpg'>
         <figcaption>
-          <h3>Vincent van Gogh</h3>
+          <h3>Olympia</h3>
         </figcaption>
       </figure>
+
       <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1024px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg'>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/Where_Do_We_Come_From.jpg'>
         <figcaption>
-          <h3>Bedroom in Arles</h3>
+          <h3>Paul Gauguin</h3>
         </figcaption>
       </figure>
+
       <figure>
-        <img alt='' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdq5Oxjb4kTf4Sn3TumQKKzhykTo-1yhu92lpQWq7_-yzqygCxmxmQdcJj7Bb_6SUHYw&usqp=CAU'>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/still-life-with-aubergines.jpg'>
         <figcaption>
           <h3>Henri Matisse</h3>
         </figcaption>
       </figure>
+
       <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/en/a/a7/Matissedance.jpg'>
-        <figcaption>
-          <h3>La Danse</h3>
-        </figcaption>
-      </figure>
-      <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Edvard_Munch_-_Self-Portrait_%281895%29_G0192-59_-_Google_Art_Project.jpg/800px-Edvard_Munch_-_Self-Portrait_%281895%29_G0192-59_-_Google_Art_Project.jpg'>
-        <figcaption>
-          <h3>Edvard Munch</h3>
-        </figcaption>
-      </figure>
-      <figure>
-        <img alt='' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/800px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg'>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/The_Scream.jpg'>
         <figcaption>
           <h3>The Scream</h3>
         </figcaption>
       </figure>
+
+      <figure>
+        <img alt='' src='https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/The_calling_of_st_matthew.jpg'>
+        <figcaption>
+          <h3>Caravaggio</h3>
+        </figcaption>
+      </figure>
+
     </div>
+
     <p>
       <b>Welcome to the "Art Detective".</b>
     </p>
-    <p>
-      /////
+
+    <p>Are you a talented detective?<br>
+      The left is the original painting, and the right is the fake.<br>
+      Compare these two works of art that are almost the same, could you find the different points in the fake one?
     </p>
     <p>
       Challenge yourself how many differences you can find！
     </p>
+
     <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)" #fullpageRef>
       <button (click)="fullpage_api.moveSlideRight()">Start</button>
     </div>
+
   </section>
 </article>

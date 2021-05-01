@@ -48,7 +48,7 @@ export class PlayButtonComponent implements OnInit {
       case 5:
         periodName = 'Post Impressionism';
         periodTime = '1885 - 1905';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F.jpg';
+        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/Image500KB/Where_Do_We_Come_From.jpg';
         break;
       case 6:
         periodName = 'Fauvism';

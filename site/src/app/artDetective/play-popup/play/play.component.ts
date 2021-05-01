@@ -9,9 +9,14 @@ import {Component, Input, HostListener, ElementRef, ViewChild, OnInit } from '@a
 export class PlayComponent implements OnInit {
   paintingName: string;
   paintingUrl: string;
+  paintingDescription: string;
   allDif: number;
   remainDif: number;
-  // difData: [number][number][boolean];
+  difPointsX: Array<number>;
+  difPointsY: Array<number>;
+  difPointsR: Array<number>;
+  difPointsDraw: Array<boolean>;
+  difPointsDescription: Array<string>;
 
   draw: boolean;
   // pass the photo number
@@ -22,7 +27,7 @@ export class PlayComponent implements OnInit {
 
   @HostListener('click') onMouseMove(e): void {
     if (this.remainDif === 0) {
-      return;
+      // return;
     }
     const canvasPosition = this.canvas.nativeElement.getBoundingClientRect();
     const mouseX = e.pageX - canvasPosition.x;
@@ -41,16 +46,19 @@ export class PlayComponent implements OnInit {
   public initGame(): void {
     let paintingPath: string;
     let paintingName: string;
+    let paintingDescription: string;
     let allDif: number;
     switch (this.paintingNumber) {
       case 1:
         paintingName = 'The school of athens';
         paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_school_of_athens.png';
+        paintingDescription = '"School of Athens" is a large mural that the Pope ordered Raphael to paint in the Vatican palace, depicting intellectuals and hero from the ancient Greeks to the Renaissance.';
         allDif = 3;
         break;
       case 2:
         paintingName = 'The Calling of St Matthew';
         paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_the%20calling%20of%20st%20matthew.png';
+        paintingDescription = '"The Calling of St. Matthew" is the one of the master piece in Baroque art drawing a scene of "Gospel of Matthew" where St. Matthew is called by Jesus Christ.';
         allDif = 3;
         break;
       case 3:
@@ -60,7 +68,7 @@ export class PlayComponent implements OnInit {
         allDif = 3;
         break;
       case 4:
-        paintingName = 'The school of athens';
+        paintingName = 'Olympia (Manet)';
         paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_Olympia.png';
         allDif = 3;
         break;
@@ -99,6 +107,7 @@ export class PlayComponent implements OnInit {
     }
     this.paintingName = paintingName;
     this.paintingUrl =  'url("' + paintingPath + '") no-repeat center center';
+    this.paintingDescription = paintingDescription;
     this.allDif = this.remainDif = allDif;
   }
   public getGameProgress(): string {
@@ -108,48 +117,18 @@ export class PlayComponent implements OnInit {
       return 'There are ' + this.allDif + ' differences in total, ' + this.remainDif + ' remaining';
     }
   }
-
-  public getDescription(): string {
-    let description: string;
-    switch (this.paintingNumber) {
-      case 1:
-        if (this.remainDif === this.allDif) {
-          description = '"School of Athens" is a large mural that the Pope ordered Raphael to paint in the Vatican palace, depicting intellectuals and hero from the ancient Greeks to the Renaissance.';
-        } else if (this.remainDif === 1) {
-          description = 'Each of the two statues represents ancient Greek and Roman deities associated with wisdom.' +
-            'The statue on the right is a Minerva is a goddess of wisdom, warfare, and justice and an incarnation of studies.' +
-            'The one in the left is Apollo, the god of reason and harmony, who presides over the arts and entertainment,' +
-            'such as poetry and music.';
-        } else if (this.remainDif === 0) {
-          description = 'In the picture, there are many well-known heroic figures primarily in the age of ancient Greek.' +
-            'For instance, a man in the bottom right pointing at a diagram on the ground is Euclid, a Greek mathematician.' +
-            'A man on the bottom left writing a book is Pitágoras, a Greek philosopher who emphasized the role of math and music.' +
-            'A man in the middle left wearing a helmet and armor is Alexander the Great, a king of the ancient Greek kingdom of Macedon.';
-        }
-        break;
-      case 6:
-        description = 'https://github.com/ZevSong/pa/raw/main/join_D\'ou_venons-nous(half).png';
-        break;
-    }
-    return description;
-  }
-  private drawCir(x: number, y: number, r: number): void {
-    const ctx: CanvasRenderingContext2D = this.canvas.nativeElement.getContext('2d');
-    ctx.strokeStyle = 'red';
-    ctx.lineWidth = 5;
-    ctx.beginPath();
-    ctx.arc(x, y, r, 0, 2 * Math.PI);
-    ctx.stroke();
-  }
   private checkDraw(x: number, y: number): void {
     let i: number;
     for (i = 0; i < this.allDif; i++) {
-      if (!this.isDrew(i) && this.isPointInCircle(x, y, 50, 50, 50)) {
-        this.drawCir(50, 50, 50);
+      const centerX = this.difPointsX[i];
+      const centerY = this.difPointsY[i];
+      const radius = this.difPointsR[i];
+      if (!this.isDrew(i) && this.isPointInCircle(x, y, centerX, centerY, radius)) {
+        this.drawCir(x, y, radius);
         this.remainDif--;
-        // turn isDrew to true;
+        this.difPointsDraw[i] = true;
         this.progressText.nativeElement.innerHTML = this.getGameProgress();
-        this.gameDescription.nativeElement.innerHTML = this.getDescription();
+        this.gameDescription.nativeElement.innerHTML = this.difPointsDescription[i];
         return;
       }
     }
@@ -162,7 +141,15 @@ export class PlayComponent implements OnInit {
     return distSq < rsq;
   }
   private isDrew(difId: number): boolean {
-    return false;
+    return this.difPointsDraw[difId];
+  }
+  private drawCir(x: number, y: number, r: number): void {
+    const ctx: CanvasRenderingContext2D = this.canvas.nativeElement.getContext('2d');
+    ctx.strokeStyle = 'red';
+    ctx.lineWidth = 5;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, 2 * Math.PI);
+    ctx.stroke();
   }
 }
 
