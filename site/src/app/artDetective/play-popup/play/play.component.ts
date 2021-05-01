@@ -52,12 +52,13 @@ export class PlayComponent implements OnInit {
       case 1:
         paintingName = 'The school of athens';
         paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_school_of_athens.png';
-        paintingDescription = '';
+        paintingDescription = '"School of Athens" is a large mural that the Pope ordered Raphael to paint in the Vatican palace, depicting intellectuals and hero from the ancient Greeks to the Renaissance.';
         allDif = 3;
         break;
       case 2:
         paintingName = 'The Calling of St Matthew';
         paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_the%20calling%20of%20st%20matthew.png';
+        paintingDescription = '"The Calling of St. Matthew" is the one of the master piece in Baroque art drawing a scene of "Gospel of Matthew" where St. Matthew is called by Jesus Christ.';
         allDif = 3;
         break;
       case 3:
