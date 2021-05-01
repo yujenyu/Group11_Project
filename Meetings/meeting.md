@@ -12,7 +12,7 @@ Introduce ourselves, create the group GitHub repo.
 
 ### Next steps
 
-Think about the topic and game generes.
+Think about the topic and game genres.
 
 
 
@@ -24,13 +24,13 @@ Project outline, timeline, and proposal.
 
 ### Notes & decisions
 
-Discuss the topic and game generes of project.
+Discuss the topic and game genres of the project.
 
 Create a prototype of the project.
 
 ### Next steps
 
-Combine the ideas for prototype.
+Combine the ideas for the prototype.
 
 
 
@@ -42,17 +42,17 @@ Project ideas.
 
 ### Agenda
 
-Present the idea of the project and discuss.
+Present the idea of the project and discuss it.
 
 ### Notes & decisions
 
 Vote and decide the idea.
 
-Topic: "ART history education for children".
+Topic: "ART history education for children"
 
 ### Next steps
 
-Do the research for art history before next meeting.
+Do the research for art history before the next meeting.
 
 
 
@@ -64,15 +64,15 @@ Skeleton of art history.
 
 ### Agenda
 
-Overview the timeline of art history.
+Overview of the timeline of art history.
 
 ### Notes & decisions
 
-Talk about details of each period, and decide to focus on which period.
+Talk about details of each period, and decide to focus on which period. We decided to focus on western art history; especially, the art movements after Renaissance. Also, we focused on the painting, excluding other forms of art.
 
 ### Next steps
 
-Teamworks for timeline of art history.
+Teamworks for the timeline of art history.
 
 
 
@@ -86,7 +86,7 @@ Type of games, principles for critical thinking.
 
 ### Notes & decisions
 
-Vote for type of games, and period of art history. We used [this file](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/23.1TimelineOfWesternArtHistory.pdf) as reference for dfferent periods in the art history.
+Vote for the type of games and period of art history. We used [this file](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/23.1TimelineOfWesternArtHistory.pdf) as a reference for defining different periods in art history.
 
 Assign the works for each team member:
 - Lauren: Renaissance, Baroque, Romanticism
@@ -97,9 +97,9 @@ Assign the works for each team member:
 
 ### Next steps
 
-Do research and focus on the period which be responsible for.
+Do the research and focus on the period which is responsible for.
 
-Push on Github before next meeting.
+Push on Github before the next meeting.
 
 
 
@@ -111,21 +111,21 @@ Design thinking, Schema.
 
 ### Notes & decisions
 
-We create [scope.md](https://github.com/yujenyu/Group11_Project/blob/master/scope.md) for sharing our studies on different periods in the art history. Scope.md file will also be a material for the timeline in our application. To achieve educational purpose of our application, we want our users can develop different levels of critical thinking through the games. By learning through art history, we hope users can have following levels of critical thinking:
+We create [scope.md](https://github.com/yujenyu/Group11_Project/blob/master/scope.md) for sharing our studies on different periods in art history. Scope.md file will also be material for the timeline in our application. To achieve the educational purpose of our application, we want our users develop different levels of critical thinking through the games. By learning through art history, we hope users can have the following levels of critical thinking:
 - Remembering
 - Understanding
 - Applying
 - Analyzing
-- Evaluting
+- Evaluating
 - Creating
 
 [Reference](https://github.com/yujenyu/Group11_Project/blob/master/Meetings/16.1CriticalThinkingThruArtHistActivities.pdf) of levels of critical thinking through art history activities.
 
-We have decided to design two games - quiz and spot differences. For quizz, users can challenge themselves by answering interesting questions about the artists and masterpieces from different periods in art history. For spot differences, users will try to find a differences between the original and modified versions of the paintings. Each difference between the painting has a significant meaning for the work itself. User will learn how to look and analyse paintings by playing this game.
+We decided to design two games - quiz and spot differences. In the quiz, users can challenge themselves by answering interesting questions about the artists and masterpieces from different periods in art history. For spot differences, users will try to find differences between the original and modified versions of the paintings. Each difference between the painting has a significant meaning for the work itself. Users will learn how to look at and analyze paintings by playing this game.
 
 ### Next steps
 
-Collect materials for quiz and find difference.
+Collect materials for quiz and find differences.
 
 
 
@@ -143,7 +143,7 @@ Turn paper prototype into a wireframe.
 
 ### Notes & decisions
 
-Remove "Futurism" and "Pop Art" from timeline.
+Remove "Futurism" and "Pop Art" from the timeline.
 
 ### Next steps
 
@@ -155,17 +155,15 @@ Concentrate on the interaction flow around the system.
 
 ### Meeting Objective
 
-Set up everything before feedback meeting
+Set up everything before the feedback meeting
 
 ### Notes & decisions
 
-Finish and discuss prototyping.
+Finish and discuss prototyping. We decided the fundamental layout of our application. The application will divide into four section: front page, timeline, quiz, and spot differences. Users can scroll the page to switch between different sections. Basically, our application will be a full page scrolling style. 
 
 ### Next steps
 
-Photoshop the painting for "Art Detective",
-
-do descriptions and questions for "Fun Facts".
+Photoshop the painting for "Art Detective", do descriptions and questions for "Fun Facts". 
 
 
 
@@ -179,17 +177,15 @@ Video of prototyping by Lauren.
 
 ### Agenda
 
-Give the feedback of the video
+Collect the feedbacks of the video
 
 ### Notes & decisions
 
-Discuss about the game type and how to implement it.
-
-Two type of game: "Fun facts", "Art Detective".
+Discuss the game type and how to implement it. We confirmed two games will be designed: “fun facts” and “art detective”. We changed the quiz to fun facts, which users can select the questions they are interested and learned the stories behind the questions. Art detective is a new name for spot differences. Users spot the differences by clicking the picture, system will tell how many number of differences left. 
 
 ### Next steps
 
-Modify the prototype and implement skeleton of the game.
+Modify the prototype and implement the skeleton of the game.
 
 
 
@@ -201,19 +197,17 @@ User's feedback and documentation.
 
 ### Agenda
 
-Create a survey for user to have feedback.
+Create a survey for users to have feedback.
 
 ### Notes & decisions
 
 1. Find some user's advice
-
 2. Data model
-
 3. Document process
 
 ### Next steps
 
-Get the feedback from users, modify our page from their advices.
+Get feedback from users, modify our page from their advice.
 
 
 
@@ -226,9 +220,7 @@ Scoping our project.
 ### Agenda
 
 1. Basic front page
-
 2. Generate quiz information
-
 3. Introduction page on GitHub
 
 ### Notes & decisions
@@ -239,7 +231,7 @@ Welcome page, Timeline, Fun Facts, Art Detective.
 
 ### Next steps
 
-Implement basic front page of each part.
+Implement the basic front page of each part.
 
 
 
@@ -247,15 +239,15 @@ Implement basic front page of each part.
 
 ### Meeting Objective
 
-Set up environment, skeleton of the web.
+Set up the environment, the skeleton of the web.
 
 ### Notes & decisions
 
-Fix the bugs, design the style of front page.
+Fix the bugs, design the style of the front page.
 
 ### Next steps
 
-Share ideas and discuss on HACKMD.
+Share ideas and discuss on HackMD.
 
 
 
@@ -271,14 +263,14 @@ Implement skeleton of game pages.
 
 ### Notes & decisions
 
-Fun Facts: ten topic of painting, each topic has four questions.
+Fun Facts: ten topics of painting, each topic has four questions.
 
-Art Detective: Circle the important parts of painting, when user correct
+Art Detective: Circle the different parts between paintings, when user correct
 the difference, descriptions will pop up under the painting.
 
 ### Next steps
 
-Implement basic version of game page before next meeting.
+Implement a basic version of the game page before the next meeting.
 
 
 
@@ -290,7 +282,7 @@ Help each other, documentation on GITHUB.
 
 ### Agenda
 
-Bug fix.
+Fix the bug.
 
 ### Notes & decisions
 
@@ -298,7 +290,7 @@ Optimize the game pages and timeline page.
 
 ### Next steps
 
-Create difference branch for each page.
+Create different branch for each page.
 
 
 
@@ -306,15 +298,15 @@ Create difference branch for each page.
 
 ### Meeting Objective
 
-Sprint, database.
+Discuss to hold a sprint and implement database
 
 ### Agenda
 
-Organize a sprint in couple days.
+Organize a sprint in couple of days.
 
 ### Notes & decisions
 
-Discuss which part should implement with database.
+We decided not to organize a sprit for whole group because our group members were in different timezone. However, members living in UK can do the works together. We also discussed which part should implement with the database.
 
 ### Next steps
 
@@ -334,11 +326,11 @@ Fix the bugs and redesign the game page.
 
 ### Notes & decisions
 
-Apply new template for game page, not to change the size of game's painting.
+Apply a new template for the game page, not to change the size of the game's painting.
 
 ### Next steps
 
-Incorporate the menu and game interface, try to help Masa for back end.
+Incorporate the menu and game interface, try to help Masa for backend.
 
 
 
@@ -346,18 +338,18 @@ Incorporate the menu and game interface, try to help Masa for back end.
 
 ### Meeting Objective
 
-Merge branch into Dev, Database, and back end.
+Merge branch into Dev, Database, and backend.
 
 ### Agenda
 
-Develop back end and game page.
+Develop backend and game page.
 
 ### Notes & decisions
 
-Update the menu bar, make an ABOUT page, and implement back end for artDetective.
+Update the menu bar, make an ABOUT page, and implement backend for art detective.
 
 Meeting with Allison, got some feedback to follow.
 
 ### Next steps
 
-Focus on developing back end. Implement document on Github.
+Focus on developing backend. Implement document on Github.
