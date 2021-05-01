@@ -1,3 +1,5 @@
+
+/*
 .btn {
   border: 1px solid black;
   background-color: #fdf1ec;
@@ -9,10 +11,46 @@
 }
 
 .default {
-  border-color: #A9A9A9;
-  color: black;
+  border-color: white;
+  color: #2b2b2b;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9vw;
+  text-align: left;
 }
 
 .default:hover {
   background: #A9A9A9;
+}
+
+
+*/
+
+.tooltip{
+  font-family: "Raleway", sans-serif;
+  border-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 6vw;
+  text-align: center;
+  font-size: 0.9vw;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  animation-duration: 3s;
+  background-color: #fdf1ec;
+  animation-name: jump;
+  animation-iteration-count: infinite;
+  transition: all 1s ease;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(3px)
+  }
+  50% {
+    transform: translateY(-15px)
+  }
+   100% {
+    transform: translateY(3px)
+  }
 }
