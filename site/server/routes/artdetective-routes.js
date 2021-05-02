@@ -10,7 +10,7 @@ router.get('', (req, res) => {
 
 router.get('/:id', (req, res) => {
     const dataId = req.params.id;
-    ArtDetectiveModel.findById((dataId), (err, data) => {
+    ArtDetectiveModel.findOne(({number: dataId}), (err, data) => {
         if(err) {return res.status(422).send({error: 'page not found'});}
         return res.json(data);
     })
