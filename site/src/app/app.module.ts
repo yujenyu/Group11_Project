@@ -40,6 +40,7 @@ import { ArtDetectiveP2Component } from './artDetective/artDetective-p2/artDetec
 import { PlayComponent } from './artDetective/play-popup/play/play.component';
 import { PlayButtonComponent } from './artDetective/play-popup/play-button/play-button.component';
 import { PlayPopupDirective } from './artDetective/play-popup/play-popup.directive';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports:      [
@@ -77,7 +78,8 @@ import { PlayPopupDirective } from './artDetective/play-popup/play-popup.directi
     ArtDetectiveP2Component,
     PlayComponent,
     PlayButtonComponent,
-    PlayPopupDirective
+    PlayPopupDirective,
+    AboutComponent
   ],
   bootstrap:    [ AppComponent ],
   entryComponents: [InfoComponent, QuizComponent]

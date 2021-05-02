@@ -108,15 +108,7 @@ body {
     transition: max-height 0.7s;
     max-height: 0;
 }
-.subMenu a{
-    display: block;
-    padding: 15px 20px;
-    color: black;
-    font-size: 14px;
-    border-bottom: 1px solid white;
-    position: relative;
 
-}
 .subMenu a:before{
     content: '';
     opacity: 0;
