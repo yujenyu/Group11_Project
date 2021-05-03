@@ -18,6 +18,6 @@ export class ArtDetectiveService {
   }
 
   public getByID(id) {
-    //return 
+    return this.httpClient.get(this.REST_API_SERVER + id); 
   }
 }
