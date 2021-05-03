@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
+import { ArtDetectiveService} from './art-detective.service';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { OverlayModule } from '@angular/cdk/overlay';
+import { HttpClientModule } from '@angular/common/http';;
 
 import { InfoButtonComponent } from './info-popup/info-button/info-button.component';
 import { InfoComponent } from './info-popup/info/info.component';
@@ -49,7 +51,8 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     MatCardModule,
     MatIconModule,
-    OverlayModule ],
+    OverlayModule,
+    HttpClientModule ],
 
   declarations: [ 
     AppComponent, 
@@ -81,6 +84,7 @@ import { AboutComponent } from './about/about.component';
     PlayPopupDirective,
     AboutComponent
   ],
+  providers: [ArtDetectiveService],
   bootstrap:    [ AppComponent ],
   entryComponents: [InfoComponent, QuizComponent]
 })
