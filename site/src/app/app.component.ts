@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2, ViewChild, ElementRef } from '@angular/core';
+import {Component, OnInit, Renderer2, ViewChild, ElementRef, HostListener, Input} from '@angular/core';
 
 @Component({
   selector: 'my-app',
@@ -6,10 +6,11 @@ import { Component, OnInit, Renderer2, ViewChild, ElementRef } from '@angular/co
   styleUrls: [ './app.component.scss' ]
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent {
   @ViewChild('fullpageRef') fp_directive: ElementRef;
   config;
   fullpage_api;
+  welcome: any;
 
   constructor(private renderer: Renderer2) {
 
@@ -34,9 +35,6 @@ export class AppComponent implements OnInit {
         // console.log(destination);
       }
     };
-  }
-
-  ngOnInit() {
   }
 
   getRef(fullPageRef) {

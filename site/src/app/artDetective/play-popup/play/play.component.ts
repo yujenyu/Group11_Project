@@ -1,4 +1,5 @@
-import {Component, Input, HostListener, ElementRef, ViewChild, OnInit } from '@angular/core';
+import { Component, Input, HostListener, ElementRef, ViewChild, OnInit } from '@angular/core';
+import { ArtDetectiveService } from '../../../art-detective.service';
 
 @Component({
   selector: 'app-play',
@@ -12,11 +13,12 @@ export class PlayComponent implements OnInit {
   paintingDescription: string;
   allDif: number;
   remainDif: number;
-  difPointsX: Array<number>;
-  difPointsY: Array<number>;
-  difPointsR: Array<number>;
-  difPointsDraw: Array<boolean>;
-  difPointsDescription: Array<string>;
+  difPointsX: Array<number> = new Array();
+  difPointsY: Array<number> = new Array();
+  difPointsR: Array<number>  = new Array();
+  difPointsDraw: Array<boolean>  = new Array();
+  difPointsDescription: Array<string>  = new Array();
+  artDetectiveData: any = [];
 
   draw: boolean;
   // pass the photo number
@@ -27,88 +29,42 @@ export class PlayComponent implements OnInit {
 
   @HostListener('click') onMouseMove(e): void {
     if (this.remainDif === 0) {
-      // return;
+      return;
     }
     const canvasPosition = this.canvas.nativeElement.getBoundingClientRect();
     const mouseX = e.pageX - canvasPosition.x;
     const mouseY = e.pageY - canvasPosition.y;
     this.checkDraw(mouseX, mouseY);
   }
-
-  constructor() {
+  constructor(private artDetectiveService: ArtDetectiveService) {
   }
 
   ngOnInit(): void {
     this.initGame();
   }
-
-  // find the painting data by number
+  // get data from db use this.paintingNumber
   public initGame(): void {
-    let paintingPath: string;
-    let paintingName: string;
-    let paintingDescription: string;
-    let allDif: number;
-    switch (this.paintingNumber) {
-      case 1:
-        paintingName = 'The school of athens';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_school_of_athens.png';
-        paintingDescription = '"School of Athens" is a large mural that the Pope ordered Raphael to paint in the Vatican palace, depicting intellectuals and hero from the ancient Greeks to the Renaissance.';
-        allDif = 3;
-        break;
-      case 2:
-        paintingName = 'The Calling of St Matthew';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_the%20calling%20of%20st%20matthew.png';
-        paintingDescription = '"The Calling of St. Matthew" is the one of the master piece in Baroque art drawing a scene of "Gospel of Matthew" where St. Matthew is called by Jesus Christ.';
-        allDif = 3;
-        break;
-      case 3:
-        paintingName = 'Liberty Leading the People';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/' +
-          'join_images/join_liberty_leading_the_people.png';
-        allDif = 3;
-        break;
-      case 4:
-        paintingName = 'Olympia (Manet)';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_Olympia.png';
-        allDif = 3;
-        break;
-      case 5:
-        paintingName = 'Where Do We Come From? What Are We? Where Are We Going?';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_D\'ou_venons-nous.png';
-        allDif = 4;
-        break;
-      case 6:
-        paintingName = 'Still Life with Aubergines';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/' +
-          'join_images/join_still-life-with-aubergines.png';
-        allDif = 4;
-        break;
-      case 7:
-        paintingName = 'The Scream';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_The_Scream.png';
-        allDif = 4;
-        break;
-      case 8:
-        paintingName = 'The Ladies of Avignon';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/' +
-          'join_images/join_Les_Demoiselles_d\'Avignon.png';
-        allDif = 4;
-        break;
-      case 9:
-        paintingName = 'The Persistence of Memory';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_The_Persistence_of_Memory.png';
-        allDif = 4;
-        break;
-      case 10:
-        paintingName = 'New York City I';
-        paintingPath = 'https://github.com/yujenyu/Group11_Project/raw/master/game_material/join_images/join_New%20York%20City%20I.png';
-        allDif = 4;
-        break;
-    }
-    this.paintingName = paintingName;
-    this.paintingUrl =  'url("' + paintingPath + '") no-repeat center center';
-    this.paintingDescription = paintingDescription;
-    this.allDif = this.remainDif = allDif;
+    this.artDetectiveService.getByID(this.paintingNumber).subscribe(
+      data => {
+        this.artDetectiveData = data;
+        console.log(this.artDetectiveData);
+        // get data from db use this.paintingNumber
+        this.paintingName = this.artDetectiveData.nameOfPainting;
+        const paintingPath = this.artDetectiveData.imageUrl;
+        this.paintingUrl =  'url("' + paintingPath + '") no-repeat center center';
+        this.paintingDescription = this.artDetectiveData.description;
+        this.allDif = this.remainDif = this.artDetectiveData.numberOfDiff;
+        for ( let i = 0; i < this.allDif; i++) {
+          this.difPointsX.push(this.artDetectiveData.difference[i].coordinateX);
+          this.difPointsY.push(this.artDetectiveData.difference[i].coordinateY);
+          this.difPointsR.push(this.artDetectiveData.difference[i].radius);
+          this.difPointsDescription.push(this.artDetectiveData.difference[i].diffDiscription);
+          this.difPointsDraw.push(false);
+        }
+      },
+      err => {
+        console.log(err);
+      });
   }
   public getGameProgress(): string {
     if (this.remainDif === 0) {

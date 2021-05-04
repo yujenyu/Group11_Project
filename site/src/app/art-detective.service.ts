@@ -8,7 +8,6 @@ import { map, filter, switchMap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ArtDetectiveService {
-
   private REST_API_SERVER = "http://localhost:3000/artdetective";
 
   constructor(private httpClient: HttpClient) { }
@@ -18,6 +17,6 @@ export class ArtDetectiveService {
   }
 
   public getByID(id) {
-    return this.httpClient.get(this.REST_API_SERVER + "/" + id); 
+    return this.httpClient.get(this.REST_API_SERVER + "/" + id);
   }
 }

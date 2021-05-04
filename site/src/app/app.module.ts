@@ -6,13 +6,12 @@ import { ArtDetectiveService} from './art-detective.service';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { OverlayModule } from '@angular/cdk/overlay';
-import { HttpClientModule } from '@angular/common/http';;
+import { HttpClientModule } from '@angular/common/http';
 
 import { InfoButtonComponent } from './info-popup/info-button/info-button.component';
 import { InfoComponent } from './info-popup/info/info.component';
 import { InfoPopupDirective } from './info-popup/info-popup.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 
 // added
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
@@ -50,6 +49,7 @@ import { AboutComponent } from './about/about.component';
     AngularFullpageModule,
     BrowserAnimationsModule,
     MatCardModule,
+    OverlayModule,
     MatIconModule,
     OverlayModule,
     HttpClientModule ],
