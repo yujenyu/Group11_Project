@@ -18,13 +18,8 @@ const options = {
   connectTimeoutMS: 10000,
 };
 
-<<<<<<< HEAD
-// const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
-const url = `mongodb://test-user:testtest@cluster0-shard-00-00.1pmsc.mongodb.net:27017,cluster0-shard-00-01.1pmsc.mongodb.net:27017,cluster0-shard-00-02.1pmsc.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-113206-shard-0&authSource=admin&retryWrites=true&w=majority`;
-=======
 const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
 // const url = `mongodb://test-user:testtest@cluster0-shard-00-00.1pmsc.mongodb.net:27017,cluster0-shard-00-01.1pmsc.mongodb.net:27017,cluster0-shard-00-02.1pmsc.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-113206-shard-0&authSource=admin&retryWrites=true&w=majority`;
->>>>>>> feature-artdetective
 
 mongoose.connect(url, options).then(function () {
   console.log('MongoDB is connected');
