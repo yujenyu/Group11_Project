@@ -13,11 +13,11 @@ export class PlayComponent implements OnInit {
   paintingDescription: string;
   allDif: number;
   remainDif: number;
-  difPointsX: Array<number>;
-  difPointsY: Array<number>;
-  difPointsR: Array<number>;
-  difPointsDraw: Array<boolean>;
-  difPointsDescription: Array<string>;
+  difPointsX: Array<number> = new Array();
+  difPointsY: Array<number> = new Array();
+  difPointsR: Array<number>  = new Array();
+  difPointsDraw: Array<boolean>  = new Array();
+  difPointsDescription: Array<string>  = new Array();
   artDetectiveData: any = [];
 
   draw: boolean;
