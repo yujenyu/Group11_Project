@@ -1,26 +1,24 @@
 <section id="timeline-p1">
 
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://www.gannett-cdn.com/-mm-/33270e34a59fb95cfaa9882f98ee37161bbe36d5/c=0-31-1473-1995/local/-/media/2016/05/17/Cincinnati/Cincinnati/635990776725216426-monalisa.jpg?width=660&height=880&fit=crop&format=pjpg&auto=webp)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Renaissance</p>
       </div>
-  
+
       <div class="tl-content">
         <h1>1400 - 1525</h1>
         <p>Known for a revival of classic Greek and Roman aesthetics, biblical and mythological subject matter, and realistic paintings and sculptures.</p>
         <div class="label" #label>
-          <app-info-button [appInfoPopup]="info" [label]="label"></app-info-button>
+          <app-info-button [appInfoPopup]="info1" [label]="label"></app-info-button>
         </div>
-        <ng-template #info>
+        <ng-template #info1>
           <app-info>
             <div class="product__photo">
               <div class="photo-container">
-                <a href="https://imgbb.com/">
-                  <img src="https://i.ibb.co/n8vBc7p/fipmYqX.jpg" alt="fipmYqX" border="0">
-                </a>
+                <img src="https://i.ibb.co/n8vBc7p/fipmYqX.jpg" alt="fipmYqX" border="0" width="330" height="440">
               </div>
             </div>
             <div class="product__info">
@@ -29,63 +27,238 @@
                 <span>1400 - 1525</span>
               </div>
               <div class="description">
-                <p>Renaissance art took as its foundation the art of Classical antiquity, perceived as the noblest of ancient traditions, but transformed that tradition by absorbing recent developments in the art of Northern Europe and by applying contemporary scientific knowledge.</p>
+                <p>Renaissance, a French term which has come to describe the 'rebirth' of interest in classical art and learning, above all from Italy, from the early 14th to the mid 16th centuries. The term is applied as a stylistic label to the art of these centuries. The rediscovery of ancient coins, sculpture and philosophical ideas contributed to debates in societies that were already changing. New religious practices placed greater emphasis on naturalistic art that could tell stories.</p>
                 <h3>Artists & Works</h3>
-                <ul>
-                  <li>Leonardo da Vinci (1452-1519)</li>
-                  <li>The Last Supper (1490s)</li>
-                  <li>Mona Lisa (1503–1506)</li>
-                  <li>Raphael (1483-1520)</li>
-                  <li>The School of Athens (1509-1511)</li>
-                </ul>
+                <div class = 'list'>
+                  <ul>
+                    <li>Leonardo da Vinci (1452-1519)
+                      <ul>
+                        <li>The Last Supper (1490s)</li>
+                        <li>Mona Lisa (1503–1506)</li>
+                      </ul>
+                    </li>
+                    <li>Raphael (1483-1520)
+                      <ul>
+                        <li>The School of Athens (1509-1511)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </app-info>
         </ng-template>
       </div>
     </div>
-  
+
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ab/Caravaggio_-_La_Deposizione_di_Cristo.jpg)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Baroque</p>
       </div>
-  
+
       <div class="tl-content">
-        <h1 class="f3 text--accent ttu">1600 - 1700 </h1>
+        <h1 class="f3 text--accent ttu">1600 - 1700</h1>
         <p>Known for similar themes as the Renaissance but depicted with more movement, color, and drama.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info2" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info2>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://i.ibb.co/H7ng4px/f02508486db2f63a5f6068d4c01540325335de57.jpg" alt="fipmYqX" border="0" width="330" height="440">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Baroque</h1>
+                <span>1600 - 1700</span>
+              </div>
+              <div class="description">
+                <p>The Baroque flourished in Europe from the early 17th century until the 1740s. The Baroque style used contrast, movement, exuberant detail, deep colour, grandeur and surprise to achieve a sense of awe. The style began at the start of the 17th century in Rom. By the 1730s, it had evolved into an even more flamboyant style, called rocaille or Rococo, which appeared in France and Central Europe until the mid to late 18th century.</p>
+                <h3>Artists & Works</h3>
+                <div class = 'list'>
+                  <ul>
+                    <li>Rembrandt van Rijn (1606-1663)
+                      <ul>
+                        <li>The Night Watch (1642)</li>
+                      </ul>
+                    </li>
+                    <li>Caravaggio (1571-1610)
+                      <ul>
+                        <li>The Entombment of Christ (1603-1604)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
       </div>
-  
     </div>
-  
+
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FxscrFu940ykaXFUJw9cdXA%2Flarger.jpg&width=600&quality=80)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Romanticism</p>
       </div>
-  
+
       <div class="tl-content">
         <h1 class="f3 text--accent ttu">1770 - 1850</h1>
         <p>Known for its strong emotion, emphasis of the imagination, and revolt against social norms.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info3" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info3>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://i.ibb.co/z6hdqWp/b6cf69855d396a4f2cfd6106d3dd79e2bf8dda07.jpg" alt="fipmYqX" border="0" width="330" height="440">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Romanticism</h1>
+                <span>1770 - 1850</span>
+              </div>
+              <div class="description">
+                <p>Romanticism was an artistic, literary, musical, and intellectual movement that originated in Europe towards the end of the 18th century, it was characterized by its emphasis on emotion, individualism and glorification of all the past and nature, preferring the medieval rather than the classical. The movement emphasized intense emotion as an authentic source of aesthetic experience, placing new emphasis on such emotions as apprehension that experienced in confronting the new aesthetic categories of the sublimity and beauty of nature.</p>
+                <h3>Artists & Works</h3>
+                <div class = 'list'>
+                  <ul>
+                    <li>Caspar David Friedrich (1774-1840)
+                      <ul>
+                        <li>Wanderer above the Sea of Fog (1818)</li>
+                      </ul>
+                    </li>
+                    <li>Eugène Delacroix (1798-1863)
+                      <ul>
+                    <li>The Death of Sardanapalus (1827 & 1844)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
       </div>
-  
     </div>
-  
+
     <div class="tl-item">
-  
+
       <div class="tl-bg" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/400px-Monet_-_Impression%2C_Sunrise.jpg)"></div>
-  
+
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Impressionism</p>
       </div>
-  
+
       <div class="tl-content">
         <h1 class="f3 text--accent ttu">1860 - 1880</h1>
         <p>Known for works that capture the effects of light on objects, using pure color and visible brushstrokes.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info4" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info4>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://i.ibb.co/644f3DJ/eb0a4b01b6672a5724f1980d1583b44cc725091f.jpg" alt="fipmYqX" border="0" width="330" height="220">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Impressionism</h1>
+                <span>1860 - 1880</span>
+              </div>
+              <div class="description">
+                <p>Impressionism is a 19th-century art movement characterized by relatively small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities (often accentuating the effects of the passage of time), ordinary subject matter, inclusion of movement as a crucial element of human perception and experience, and unusual visual angles. Impressionism originated with a group of Paris-based artists whose independent exhibitions brought them to prominence during the 1870s and 1880s.</p>
+                <h3>Artists & Works</h3>
+                <div class = 'list'>
+                  <ul>
+                    <li>Claude Monet (1840-1926)
+                      <ul>
+                        <li>Impression, Sunrise (1872)</li>
+                      </ul>
+                    </li>
+                    <li>Édouard Manet (1832-1883)
+                      <ul>
+                        <li>Olympia (1863)</li>
+                      </ul>
+                    </li>
+                    <li>Pierre-Auguste Renoir (1841-1919)
+                      <ul>
+                        <li>Dance at Le Moulin de la Galette (1876)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
+      </div>
+    </div>
+
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(https://www.vincentvangogh.org/images/paintings/cafe-terrace-at-night.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">Post <br> Impressionism</p>
+      </div>
+
+      <div class="tl-content">
+        <h1>1885 - 1905</h1>
+        <p>Known for thick applications of paint, distinctive brush strokes, and real-life subject matter.</p>
+        <div class="label" #label>
+          <app-info-button [appInfoPopup]="info5" [label]="label"></app-info-button>
+        </div>
+        <ng-template #info5>
+          <app-info>
+            <div class="product__photo">
+              <div class="photo-container">
+                <img src="https://i.ibb.co/KzHcRgs/3565b16b92a1d88dfc8de994945febb0defd1fa3.jpg" alt="fipmYqX" border="0" width="330" height="440">
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="title">
+                <h1>Post Impressionism</h1>
+                <span>1885 - 1905
+                </span>
+              </div>
+              <div class="description">
+                <p>Post-Impressionism is an artistic practice appeared in 1880s which is affected by and intended to overcome a movement of Impressionism art. Though Post-Impressionism art can include many different style of art, their works have in common that they are not intend to express just visual impressions like impressionism works, but attempt to incorporate the artist's emotions or world view into the work.</p>
+                <h3>Artists & Works</h3>
+                <div class = 'list'>
+                  <ul>
+                    <li>Vincent van Gogh (1853-1890)
+                      <ul>
+                        <li>Café Terrace at Night (1888)</li>
+                      </ul>
+                    </li>
+                    <li>Paul Cézanne (1839-1906)
+                      <ul>
+                        <li>The Bathers (1906)</li>
+                      </ul>
+                    </li>
+                    <li>Paul Gauguin (1848-1903)
+                      <ul>
+                        <li>Where Do We Come From? What Are We? Where Are We Going? (1898)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </app-info>
+        </ng-template>
       </div>
     </div>
   </section>
