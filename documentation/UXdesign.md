@@ -18,7 +18,7 @@ The mind map below shows the game type we had at the stage.
 
 In addition, the following mind map shows issues we may had. For example, the first step we considered is our user’s generation, it affected the design of our web and the contents. After the discussion, we decided to focus on university student and teenager. Research indicated that the average time people spent on a website just under 15 seconds, therefore we need to catch their eye at the start.
 
-![Drawing](https://user-images.githubusercontent.com/74121985/117169144-c1b32000-adc0-11eb-89c4-335eaed7795c.jpg)
+<img width="800" alt="Screenshot 2021-05-03 at 23 50 19" src="https://user-images.githubusercontent.com/74121985/117169631-2b332e80-adc1-11eb-9e20-21e168df1528.png">
 
 Moreover, the art history is boundless, in our web we emphasise on oil painting and the timeline of art history is from Renaissance to Abstract Expressionism. Here’s the timeline of our project.
 
