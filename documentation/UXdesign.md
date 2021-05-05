@@ -10,15 +10,25 @@ In this part, each of us discuss lots of ideas for our web as a group, combining
 
 In the beginning, we discussed the topic and type of game, the chart below shows the initial idea of our project. Our central idea is art education, following this concept we decided to develop “Fun Facts” and “Art Detective” game. According to design thinking, user-centered design is which we follow.
 
+<img width="1171" alt="Screenshot 2021-05-03 at 23 02 51" src="https://user-images.githubusercontent.com/74121985/117168301-eeb30300-adbf-11eb-9df4-de2af0f0f192.png">
+
 The mind map below shows the game type we had at the stage.
+
+<img width="800" alt="Screenshot 2021-05-03 at 23 25 02" src="https://user-images.githubusercontent.com/74121985/117169093-b3650400-adc0-11eb-9445-d11783d0d737.png">
 
 In addition, the following mind map shows issues we may had. For example, the first step we considered is our user’s generation, it affected the design of our web and the contents. After the discussion, we decided to focus on university student and teenager. Research indicated that the average time people spent on a website just under 15 seconds, therefore we need to catch their eye at the start.
 
+<img width="800" alt="Screenshot 2021-05-03 at 23 50 19" src="https://user-images.githubusercontent.com/74121985/117169115-b8c24e80-adc0-11eb-90c7-94d84f4ff946.png">![Drawing](https://user-images.githubusercontent.com/74121985/117169144-c1b32000-adc0-11eb-89c4-335eaed7795c.jpg)
+
 Moreover, the art history is boundless, in our web we emphasise on oil painting and the timeline of art history is from Renaissance to Abstract Expressionism. Here’s the timeline of our project.
+
+![Drawing](https://user-images.githubusercontent.com/74121985/117169310-e8715680-adc0-11eb-8c6a-f7205ebb54c1.jpg)
+
 
 
 ### Early prototyping
 
+![prototype](https://user-images.githubusercontent.com/74121985/117169259-dc859480-adc0-11eb-8703-06c7d37f3d1b.jpg)
 
 
 
