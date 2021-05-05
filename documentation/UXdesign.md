@@ -1,34 +1,28 @@
 # UX Design
 
+In this part, each of us discuss lots of ideas for our web as a group, combining variety of ideas and research to implement it. According to some users’ feedback, we modified the interface and design pattern to convenience the user. We follow the minimalist design and intuitive thinking, expect someone who use our web with enjoyable experience.
+
 
 
 ## Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
 
-### Design Process
+### Design Process and ideation
 
-* Understand
+In the beginning, we discussed the topic and type of game, the chart below shows the initial idea of our project. Our central idea is art education, following this concept we decided to develop “Fun Facts” and “Art Detective” game. According to design thinking, user-centered design is which we follow.
 
-* Research
+The mind map below shows the game type we had at the stage.
 
-* Analyze
+In addition, the following mind map shows issues we may had. For example, the first step we considered is our user’s generation, it affected the design of our web and the contents. After the discussion, we decided to focus on university student and teenager. Research indicated that the average time people spent on a website just under 15 seconds, therefore we need to catch their eye at the start.
 
-* Design
+Moreover, the art history is boundless, in our web we emphasise on oil painting and the timeline of art history is from Renaissance to Abstract Expressionism. Here’s the timeline of our project.
 
-* Launch
-
-* Analyze (again)
 
 ### Early prototyping
-
-### Ideation
-
 
 
 
 
 ## Identification of interacting users and broader stakeholders.
-
-
 
 
 
@@ -38,9 +32,13 @@
 
 * Visibility of system status
 
+
+
 * Match between system and the real world
 
-* User control and freedom
+* User control
+
+
 
 * Consistency and standards
 
@@ -51,6 +49,12 @@
 * Flexibility and efficiency of use
 
 * Aesthetic and minimalist design
+
+Instead of use four buttons for each page in front page, we changed the idea into a menu button,
+
+when user click it, the menu will pop up a menu window. It makes our first page more minimalistic.
+
+In timeline page, we chose slide style to implement each period of art.
 
 * Help users recognize, diagnose, and recover from errors
 
