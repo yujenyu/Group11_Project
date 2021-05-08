@@ -47,7 +47,6 @@ export class PlayComponent implements OnInit {
     this.artDetectiveService.getByID(this.paintingNumber).subscribe(
       data => {
         this.artDetectiveData = data;
-        console.log(this.artDetectiveData);
         // get data from db use this.paintingNumber
         this.paintingName = this.artDetectiveData.nameOfPainting;
         const paintingPath = this.artDetectiveData.imageUrl;
