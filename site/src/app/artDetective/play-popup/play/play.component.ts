@@ -79,7 +79,7 @@ export class PlayComponent implements OnInit {
       const centerY = this.difPointsY[i];
       const radius = this.difPointsR[i];
       if (!this.isDrew(i) && this.isPointInCircle(x, y, centerX, centerY, radius)) {
-        this.drawCir(x, y, radius);
+        this.drawCir(centerX, centerY, radius);
         this.remainDif--;
         this.difPointsDraw[i] = true;
         this.progressText.nativeElement.innerHTML = this.getGameProgress();
@@ -107,7 +107,3 @@ export class PlayComponent implements OnInit {
     ctx.stroke();
   }
 }
-
-
-
-
