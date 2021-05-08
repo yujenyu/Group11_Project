@@ -57,7 +57,7 @@ export class PlayComponent implements OnInit {
           this.difPointsX.push(this.artDetectiveData.difference[i].coordinateX);
           this.difPointsY.push(this.artDetectiveData.difference[i].coordinateY);
           this.difPointsR.push(this.artDetectiveData.difference[i].radius);
-          this.difPointsDescription.push(this.artDetectiveData.difference[i].diffDiscription);
+          this.difPointsDescription.push(this.artDetectiveData.difference[i].diffDescription);
           this.difPointsDraw.push(false);
         }
       },
