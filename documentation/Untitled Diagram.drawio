@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T10:31:45.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="7bUqmhhWKegJ9vj7ydgq" version="14.6.11" type="github"><diagram name="Page-1" id="0">7VjbcpswEP0aP6ZjkMH2o43j9CGd8SS9vXVkkEETIVEhfOnXdwXiZnxJMrWbycQPHnQkrVZnz4pFPeTF2zuJk+iLCAjr2f1g20Oznm0PRzb8a2BXAAN3XAChpEEBWTXwSP8QA/YNmtGApK2BSgimaNIGfcE58VULw1KKTXvYSrD2qgkOSQd49DHroj9ooKICHdlujX8mNIzKla1yf0vsP4VSZNys17PRKv8V3TEubZmNphEOxKYBodse8qQQqniKtx5hmtqStmLe/Ehv5bckXD1nwmTtzVfB75/D+wdHfR/EK/Xrx42xssYsM3x8S4k0DqtdSRL4nujHLGb3dEUY5dCawtqK+jTBuQPQN/GVkLqDSBoTBYbQjJnxixqbbiKqyGOCfW1zA7ICLFIxg5YFjxBqhWGKrNqM4SSly9ydPiCS+JlM6Zo8kLRQlEbXRPuD2YTRkAOmhDacwjqUh191Y4ZcQBheEjatwucJpr2e1QFEU5Ep7bRXiU7bT5UUT6QxvJ//oGdFGWvg8/mowA274BfZHg2bVYkBcowIIEnuYIiZMDDyMek1Ms1NrdVSYFFDpuCaSRGTHmFluJYIPBiVvEAxdkcxHbU0QpkIylXugjPtObM9bQipIhEKjllTHRei+bj+j3LvnKPeOkC9fTHq0QHqXRxrkTOV09Bs+SJOBNfbL+GwNahs5YOXkPNujkykmkEgfAXZtbC92sjzjoT/k/lvJ10t+2y+Ws5VE3bwrhIWnWR/eJ78g9xfiHqnQ/2dyOsbXR8QnpXlyYl47L/TlkIpEUMH4cFElz8aY8J/qlglQafg2RMveIBlSF5Bc4PIkltJGNZnRbswO8CksbbQAmscse2IWe5eLFKRSZ+YSc3qZs+Ohc4YKrbcMZTHtdrh60PtXuNsXjC8m2YgAP5xLr/wXLbH548GdNVzefiuzmX3JPvuHvnOMyupC1E/ulayfqTpS792zn/uWIdf4ZfSyvhdpenoJPvO20rTcrEG9x6jUOrYfcF1FRMRfQ+TvxCvXUNdozaqviSrmsZ5XXGEnMEn57SpC5dHVveiaSGSmyzRLuhqWASY5SRyfUn2DoOJ3H8UzMH4csGEZn0hWQyvL33R7V8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-10T10:34:25.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="PoyMZ7PI-QEikzzfcjr0" version="14.6.11" type="github">
+  <diagram name="Page-1" id="0">
+    <mxGraphModel dx="946" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-1" value="User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;strokeColor=#000000;fillColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FF8000;" parent="AvCFfdqX7LR5tV4mft_W-1" vertex="1">
+          <mxGeometry x="5" y="80" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-3" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;ArtDetectiveP2Component" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FF8000;" parent="AvCFfdqX7LR5tV4mft_W-3" vertex="1">
+          <mxGeometry x="70" y="80" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-5" value="Go to menu page" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="AvCFfdqX7LR5tV4mft_W-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="160" as="sourcePoint" />
+            <mxPoint x="130" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-6" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;PlayButtonComponent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FF8000;" parent="AvCFfdqX7LR5tV4mft_W-6" vertex="1">
+          <mxGeometry x="60" y="85" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-8" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;PlayComponent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="440" y="80" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FF8000;" parent="AvCFfdqX7LR5tV4mft_W-8" vertex="1">
+          <mxGeometry x="50" y="85" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-10" value="Click on the button" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="165" as="sourcePoint" />
+            <mxPoint x="354.5" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AvCFfdqX7LR5tV4mft_W-11" value="Pop-up a modal window" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="165" as="sourcePoint" />
+            <mxPoint x="494.5" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
