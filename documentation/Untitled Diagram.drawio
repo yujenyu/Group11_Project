@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T11:22:13.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="MBWO2edNL5BVOvYgEsWq" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T11:27:54.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="NuM_7t6YP0JVl2gqDwyc" version="14.6.11" type="github">
   <diagram name="Page-1" id="0">
-    <mxGraphModel dx="788" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AvCFfdqX7LR5tV4mft_W-1" value="User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="20" height="440" as="geometry" />
+          <mxGeometry x="160" y="80" width="20" height="480" as="geometry" />
         </mxCell>
         <mxCell id="AvCFfdqX7LR5tV4mft_W-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#56517e;fillColor=#d0cee2;" parent="AvCFfdqX7LR5tV4mft_W-1" vertex="1">
-          <mxGeometry x="5" y="80" width="10" height="360" as="geometry" />
+          <mxGeometry x="5" y="80" width="10" height="400" as="geometry" />
         </mxCell>
         <mxCell id="AvCFfdqX7LR5tV4mft_W-3" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;ArtDetectiveP2Component" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="240" y="80" width="150" height="440" as="geometry" />
+          <mxGeometry x="240" y="80" width="150" height="480" as="geometry" />
         </mxCell>
         <mxCell id="AvCFfdqX7LR5tV4mft_W-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="AvCFfdqX7LR5tV4mft_W-3" vertex="1">
-          <mxGeometry x="70" y="80" width="10" height="360" as="geometry" />
+          <mxGeometry x="70" y="80" width="10" height="400" as="geometry" />
         </mxCell>
         <mxCell id="AvCFfdqX7LR5tV4mft_W-5" value="Go to menu page" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="AvCFfdqX7LR5tV4mft_W-3" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -29,10 +29,10 @@
           <mxGeometry x="60" y="100" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvCFfdqX7LR5tV4mft_W-8" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;PlayComponent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="560" y="80" width="110" height="420" as="geometry" />
+          <mxGeometry x="560" y="80" width="110" height="430" as="geometry" />
         </mxCell>
         <mxCell id="AvCFfdqX7LR5tV4mft_W-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FF8000;" parent="AvCFfdqX7LR5tV4mft_W-8" vertex="1">
-          <mxGeometry x="50" y="120" width="10" height="280" as="geometry" />
+          <mxGeometry x="50" y="120" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="A_zmkRkEXhMPCMao7RxK-10" value="Check if it is at &lt;br&gt;the right point&lt;br&gt;and draw" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="AvCFfdqX7LR5tV4mft_W-8">
           <mxGeometry relative="1" as="geometry">
@@ -107,14 +107,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A_zmkRkEXhMPCMao7RxK-19" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="A_zmkRkEXhMPCMao7RxK-24" value="Display end" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="480" as="sourcePoint" />
-            <mxPoint x="314.6666666666665" y="480" as="targetPoint" />
+            <mxPoint x="620" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="470" />
+              <mxPoint x="650" y="510" />
+              <mxPoint x="621" y="510" />
+            </Array>
+            <mxPoint x="620.9999999999998" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A_zmkRkEXhMPCMao7RxK-21" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="610" height="130" as="geometry" />
+        <mxCell id="A_zmkRkEXhMPCMao7RxK-21" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;gradientColor=none;width=30;height=30;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="600" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="A_zmkRkEXhMPCMao7RxK-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=0;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="600" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
