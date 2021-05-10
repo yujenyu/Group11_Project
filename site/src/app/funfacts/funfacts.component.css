@@ -34,17 +34,20 @@ section:before {
   background: red;
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
   font-family: Montserrat, sans-serif;
-}
+} */
 
 h1 {
+  font-family: Helvetica;
   font-size: 6vw;
   margin: 0 0 2vw 0;
   color: white;
+  letter-spacing: 3;
 }
 
 h2 {
+  font: Helvetica;
   font-size: 2vw;
   font-style: italic;
   font-weight: 400;
@@ -53,8 +56,10 @@ h2 {
 }
 
 p {
-  font-family: Montserrat, sans-serif;
+  font: Helvetica;
+  /* font-family: Montserrat, sans-serif; */
   font-size: 20px;
+  line-height: 2;
   color: white;
 }
 

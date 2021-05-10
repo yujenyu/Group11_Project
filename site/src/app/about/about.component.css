@@ -26,6 +26,21 @@ p {
   text-align: left;
 }
 
+.content p {
+    line-height: 1.5;
+    text-align:justify;
+}
+
+.content p1 {
+    line-height: 2.5;
+    text-align:left;
+}
+
+.content p2 {
+    line-height: 2;
+    text-align:left;
+}
+
 .tabs {
   left: 50%;
   transform: translateX(-50%);
