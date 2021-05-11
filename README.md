@@ -1,3 +1,4 @@
+
 ## Team
 Masashi Asai: <zb20884@bristol.ac.uk>
 
@@ -12,8 +13,9 @@ Lauren(Ya-Shiuan) Chian: <da20602@bristol.ac.uk>
 # Documentation
 
 ## Introduction
-↓ click the picture below to watch video ↓
-[![Video Link](https://i.imgur.com/0pVmCAr.jpg)](https://clipchamp.com/watch/W3l3Aw2bVoW?utm_source=share&utm_medium=social&utm_campaign=watch)
+↓ Please turn on the music in the bottom right corner ↓
+
+https://user-images.githubusercontent.com/78802441/117897081-95cdf800-b2f4-11eb-8155-a5808b635e55.mp4
 
 ---
 
@@ -41,7 +43,7 @@ Problem-solving skills, critical thinking, creative outlet highlighted as signif
 
 First, educational resources decrease. According to a [BBC survey](https://www.bbc.com/news/education-42862996) in 2018, creative arts subjects are being cut back in many schools in England. Schools told the BBC that the increased emphasis on core academic subjects, together with funding pressures, were the most common reasons for cutting back on resources for creative subjects. At a time when Covid-19 is raging, this problem seems to be [getting worse](https://www.tes.com/news/arts-being-cut-allow-covid-catch-teachers-warn). [More schools](https://www.grandforksherald.com/news/education/7017850-Artist-in-the-Classroom-employees-describe-loss-for-students-as-result-of-programs-elimination) are trying to make up for lost resources and learning time during the Covid pandemic by reducing time for creative and practical subjects. 
 
-Second, the opportunities for people to be exposed to art outside the campus are also significantly reduced. [YouGov poll](https://www.fenews.co.uk/press-releases/67007-new-yougov-poll-reveals-1-in-2-adults-being-held-back-from-engaging-with-the-arts) reveals that more than half of Brits are faced with barriers when looking to engage with the arts. The study reveals that 50% of adults believe barriers prevent their participation in artistic activities. The most prevalent issue cited was that of not knowing enough about art or the artistic process. Also, due to the Covid pandemic, Brits reduced [the frequency of visiting art exhibitions](https://yougov.co.uk/topics/arts/trackers/how-often-brits-go-to-art-galleries-and-exhibitions).
+Second, the opportunities for people to be exposed to art outside the campus are also significantly reduced. [YouGov poll](https://www.fenews.co.uk/press-releases/67007-new-yougov-poll-reveals-1-in-2-adults-being-held-back-from-engaging-with-the-arts) reveals that more than half of Brits are faced with barriers when looking to engage with the arts. The study reveals that 50% of adults believe barriers prevent their participation in artistic activities. The most prevalent issue cited was that of not knowing enough about art or the artistic process. Also, according to [NEMO](https://www.ne-mo.org/advocacy/our-advocacy-work/museums-during-covid-19.html) - The Network of European Museum Organisations, the majority of museums in Europe and around the globe are closed during the pandemic. Brits reduced [the frequency of visiting art exhibitions](https://yougov.co.uk/topics/arts/trackers/how-often-brits-go-to-art-galleries-and-exhibitions) as well.
 ![](https://i.imgur.com/xb8zBbL.png)
 
 Our app is dedicated to improving these issues.  We hope to provide a different route for the public to access art through stress-free and straightforward games, combining educational significance and fun, making it easier for the public to reach art and overcoming obstacles and restrictions caused by the Covid pandemic with an online application.
