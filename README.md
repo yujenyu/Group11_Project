@@ -1,5 +1,3 @@
-
-![image](game_material/pic1.png)
 ## Team
 Masashi Asai: <zb20884@bristol.ac.uk>
 
