@@ -24,6 +24,16 @@ body {
   border-radius: 3vh 3vh 0vh 0vh;
 }
 
+.wrapper p {
+  font-size:1.3vw;
+  line-height: 1.2;
+}
+
+.wrapper p1 {
+  font-size:1vw;
+  line-height: 1.5;
+}
+
 .description p {
   color: black;
   padding: 0% 1%;

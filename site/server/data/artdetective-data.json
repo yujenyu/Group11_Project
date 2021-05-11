@@ -57,13 +57,13 @@
         "numberOfDiff": 2,
         "difference": [
             {
-                "coordinateX": 87,
+                "coordinateX": 737,
                 "coordinateY": 121,
                 "radius": 50,
                 "diffDescription": "A flag that Marianne is raising is the today's national flag of France and it is said to have originated from a symbol of French Revolution. There are some similar motifs in the painting which have that 3 colors. (e.g. a flag on the top left and a cloth of a woman in the center)."
             },
             {
-                "coordinateX": 387,
+                "coordinateX": 1037,
                 "coordinateY": 78,
                 "radius": 50,
                 "diffDescription": "A woman depicted in the center is an imaginary character representing liberty and a symbol of France named \"Marianne\". In this painting Marianne is wearing a cap (Phrygian cap) which slaves in ancient Greece wear when they became freed and The motif is a good illustration of the concept of the work, liberation."
@@ -147,13 +147,13 @@
             {
                 "coordinateX": 688,
                 "coordinateY": 193,
-                "radius": 100,
+                "radius": 50,
                 "diffDescription": "The artist was walking along the road with two friends."
             },
             {
                 "coordinateX": 812,
                 "coordinateY": 44,
-                "radius": 50,
+                "radius": 100,
                 "diffDescription": "The sun was setting – suddenly the sky turned blood red."
             }
         ]

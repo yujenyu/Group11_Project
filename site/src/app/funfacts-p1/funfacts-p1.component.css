@@ -2,6 +2,8 @@ html {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
+	margin:0;
+	padding:0;
 }
 
 *, *:before, *:after {
@@ -11,15 +13,11 @@ html {
 }
 
 body {
+	background-color: #2f414f;
 	text-align:center;
-	background-color:#EEEEEE;
-}
-
-html, body {
 	margin:0;
 	padding:0;
 }
-
 
 /* --- LOGO --- */
 
@@ -134,7 +132,7 @@ html, body {
 	text-align:center;
 	text-transform:uppercase;
   font-family: "Raleway", sans-serif;
-	font-size:23px;
+	font-size:20px;
 	font-weight:normal;
 	word-spacing:5px;
 	color:transparent;
