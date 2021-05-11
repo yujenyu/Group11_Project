@@ -15,7 +15,7 @@ Lauren(Ya-Shiuan) Chian: <da20602@bristol.ac.uk>
 
 ## Introduction
 ↓ click the picture below to watch video ↓
-![](https://i.imgur.com/0pVmCAr.jpg)
+[![Video Link](https://i.imgur.com/0pVmCAr.jpg)](https://www.youtube.com/watch?v=anribnNDmAQ)
 
 ---
 
