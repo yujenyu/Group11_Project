@@ -19,7 +19,7 @@ export class AppComponent {
       licenseKey: 'YOUR LICENSE KEY HERE',
       anchors: ['welcome', 'timeline', 'funfacts', 'artdetective', 'aboutpage'],
       menu: '#menu',
-      sectionsColor: ['white', '#4BBFC3', '#7BAABE', 'whitesmoke', 'whitesmoke'],
+      sectionsColor: ['white', '#4BBFC3', '#2f414f', 'whitesmoke', 'whitesmoke'],
 
       // events callback
       afterLoad: (origin, destination, direction) => {

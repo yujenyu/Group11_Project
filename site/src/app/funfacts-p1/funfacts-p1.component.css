@@ -12,10 +12,11 @@ html {
 	box-sizing:inherit;
 }
 
+
 body {
-	background-color: #2f414f;
+  background-color: #2f414f;
 	text-align:center;
-	margin:0;
+	margin: 0;
 	padding:0;
 }
 
