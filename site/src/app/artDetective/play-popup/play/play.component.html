@@ -1,16 +1,14 @@
 <section class="gameScene">
   <div>
-    <h1 [innerHTML]='getPaintingName()'></h1>
-    <h2 [innerHTML]='getProgress()'></h2>
+    <h1 [innerHTML]='paintingName'></h1>
   </div>
   <div>
-    <canvas [style.background]='getPaintingUrl()'></canvas>
+    <h2 #gameProgress [innerHTML]='getGameProgress()'></h2>
+    <canvas #myCanvas [style.background]='paintingUrl' width="1280px" height="450px" (click)='onMouseMove($event)'></canvas>
+    <div></div>
   </div>
-  <div>
-    <h2 [innerText]='getDescription()'>
-    </h2>
-  </div>
-
+    <p #description [innerHTML]='paintingDescription'>
+    </p>
 </section>
 
 

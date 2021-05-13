@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+.DS_Store
+=======
+# System Files
+.DS_Store
+>>>>>>> feature-timeline
+
+# dependencies
+/node_modules
