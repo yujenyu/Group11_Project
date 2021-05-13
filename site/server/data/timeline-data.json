@@ -1,0 +1,20 @@
+[
+    { 
+        "movementName": "Renaissance",
+        "year": "1400 - 1525",
+        "characteristics": "Known for a revival of classic Greek and Roman aesthetics, biblical and mythological subject matter, and realistic paintings and sculptures.",
+        "imageUrl": "https://i.ibb.co/n8vBc7p/fipmYqX.jpg",
+        "description": "Renaissance art took as its foundation the art of Classical antiquity, perceived as the noblest of ancient traditions, but transformed that tradition by absorbing recent developments in the art of Northern Europe and by applying contemporary scientific knowledge.",
+        "artistsAndWorks": {
+            "artist1": {
+                "name": "Leonardo da Vinci (1452-1519)",
+                "work1": "The Last Supper (1490s)",
+                "work2": "Mona Lisa (1503–1506)"
+            },
+            "artist2": {
+                "name": "Raphael (1483-1520)",
+                "work1": "The School of Athens (1509-1511)"
+            }
+        }
+    }
+]
