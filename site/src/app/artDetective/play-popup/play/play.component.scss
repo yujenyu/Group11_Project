@@ -1,0 +1,37 @@
+.gameScene {
+  grid-template-columns: 0.9fr 1fr;
+  background-color: #031625;
+  margin: auto;
+  width: auto;
+  height: 750px;
+  border: 3px solid burlywood;
+  position: relative;
+  top: 40px;
+
+  max-width: 1300px;
+  text-align: center;
+}
+
+h1 {
+  height: 20px;
+  font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  height: 15px;
+  font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-style: inherit;
+}
+
+canvas {
+  width: 1280px;
+  height: 500px;
+  margin: 5px;
+}
+
