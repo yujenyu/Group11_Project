@@ -114,3 +114,10 @@ Questions for users:
 3. Some stories are quiet interesting, it is a good way to combine stories and artworks.
 4. I like fun facts. This game is like a bunch of small cards. When I play this game, I can learn a lot of stories behind the paintings.
 5. I think it would be better to add the ability to categorize paintings by author, so that people can view the works of their favorite authors.
+
+**User 5: Astrid (female, 29 yr)**
+1. I think the operation is very intuitive. The design is straightforward and uncomplicated. It is easy for me to use.
+2. The app helped me learn more about the history of art, which I had no idea about before, such as the styles and ages of each period. My favourite stories were the ones about Van Gogh's paintings. The stories gave me a deeper understanding of this distant historical figure and brought me closer to his inner thoughts. 
+3. I find that many famous creators seem to have been under-appreciated in their time, and it is only in later generations that people have come to realise the importance and innovation of their works. This made me reflect on the interpretation of art and its value. 
+4. Both FunFacts and ArtDetective are very enjoyable for me. One gives me a deeper understanding of art history in general, and the other makes me know the specific stories and elements of individual paintings.
+5. I wish there will include more games! Or add more introductions to the paintings in the sections that already exist. Because after playing all the parts, I still feel like exploring more stories.
