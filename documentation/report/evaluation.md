@@ -89,9 +89,10 @@ Questions for users:
 
 **User 1: Anika (female, 27 yr)**
 1. I think the app is very easy to use. I particularly like the scrolling pages. It makes every part very clear and makes users easily navigate between sections.
-2. I think I indeed learn something about art by using this app. The most impressive short story is about why Venus is not wearing the clothes. I cannot guess the answer why she is wearing nothing, which because she was just borned.
-3. I really like the Art Detective. The game is very challenging but interesting.
-4. I would say that if you can include more games and content, this app will be more playable. The overall design of the app is nice and intuitive. If you can add more material, it will be more engaging to users.
+2. I think I indeed learn something about art by using this app. The most impressive short story is about why Venus is not wearing the clothes. I cannot guess the answer why she is wearing nothing, which because she was just borned
+3. I find that there are no correct answers to many questions in art. Many of the explanations may be just speculation, or each person may have a different interpretation, and this process of thinking has given me a lot.
+4. I really like the Art Detective. The game is very challenging but interesting.
+5. I would say that if you can include more games and content, this app will be more playable. The overall design of the app is nice and intuitive. If you can add more material, it will be more engaging to users.
 
 **User 2: Keisuke (male, 23 yr)**
 1. The UI and UX of this app were terrific. I could use it intuitively without checking how to use each feature. If I'm forced to say something about improvement, it will become much better if it allows users to move between pages by flicking like when scrolling up/down. 
