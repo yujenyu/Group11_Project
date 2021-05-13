@@ -130,8 +130,8 @@ To deal with this issue, we introduced the Mongoose. It is a module for handling
 Specifically, for the Art-Detective game, we constructed the data model, which specifies the data type to be stored, requires non-null values for information that must be stored, and requires a unique value for the ID that is given to each group of dat in order to distinguish each group of data. 
 
 > Note: Originally, MongoDB has a function to set a unique ID automatically when storing data, so there is no need to add another ID separately, but we decided to put an additional ID so that respond effectively to calls from the frontend based on a nature of our current architectural design. This point may be improved in the future.
-- [Data-model of Art Detective game(create a link later)]()
-- [Detailed description of Art Detective data(create a link later)]() 
+- [Data-model of Art Detective game](https://github.com/yujenyu/Group11_Project/blob/341e53c58318615c99b469a2a5cf76f683bfbb74/site/server/models/artdetective-model.js)
+- [Detailed contents of Art Detective dat](https://github.com/yujenyu/Group11_Project/blob/341e53c58318615c99b469a2a5cf76f683bfbb74/site/server/data/artdetective-data.json) 
 
 #### Database Imprementation
 The art-detective game requires relatively simple database operation: store the dataset to the database in advance and send a part of them back in response to a request from the frontend via the middle tier. (Details about database operation and its implementaion are described in the next section.) 
