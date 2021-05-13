@@ -10,9 +10,7 @@ Zhengwu Song: <lu20732@bristol.ac.uk>
 
 Lauren(Ya-Shiuan) Chian: <da20602@bristol.ac.uk>
 
-# Documentation
-
-## Introduction
+# Introduction
 ↓ Please turn on the music in the bottom right corner ↓
 
 https://user-images.githubusercontent.com/78802441/117897081-95cdf800-b2f4-11eb-8155-a5808b635e55.mp4
@@ -36,3 +34,6 @@ The project objectives will be:
 * Design games that are interesting and educational
 * Users can enhance different levels of critical thinking through our application
 * The application can be easily extended, so developers could include more features and contents in the future
+
+# Documentation
+Find out our [full report](https://github.com/yujenyu/Group11_Project/tree/master/documentation/report).
