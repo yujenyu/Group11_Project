@@ -11,7 +11,7 @@ There are four main objectives that we have proposed at the beginning of develop
 ### Unit Testing (Backend API)
 As mentioned above, we separated the frontend and backend development, so before we combined the two, we used [Postman](https://www.postman.com) to test the backend API to check it worked properly. Postman is a Web API client service that allows us to test the API's functionality for handling requests from various clients in a very intuitive manner. (The current API use of our app is relatively simple, so we used only a small part of Postman's functionality for testing) Specifically, we tested that the API sent back all the right data in the right format in response to the predetermined request-URIs. The following are actual images of the test result. We were able to perform effective unit tests on the backend API with this superior GUI.
 
-![](https://github.com/yujenyu/Group11_Project/blob/dev/documentation/diagrams/api-testing.png?raw=true)
+![](https://https://github.com/yujenyu/Group11_Project/blob/54c1423f83e45b485cd564592f154e933e7fefd3/documentation/diagrams/api-testing.png?raw=true?raw=true)
 
 
 ### Manual Testing
